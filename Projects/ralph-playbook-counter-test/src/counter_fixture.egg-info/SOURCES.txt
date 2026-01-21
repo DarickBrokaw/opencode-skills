@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/counter_fixture/__init__.py
+src/counter_fixture/__main__.py
+src/counter_fixture/cli.py
+src/counter_fixture/core.py
+src/counter_fixture.egg-info/PKG-INFO
+src/counter_fixture.egg-info/SOURCES.txt
+src/counter_fixture.egg-info/dependency_links.txt
+src/counter_fixture.egg-info/top_level.txt
+tests/test_counter.py
