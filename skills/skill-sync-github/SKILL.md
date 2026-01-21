@@ -1,5 +1,5 @@
 ---
-name: sync-skills
+name: skill-sync-github
 description: Synchronizes OpenCode skills with GitHub repository
 metadata:
   short-description: Sync skills with GitHub

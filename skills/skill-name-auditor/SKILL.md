@@ -1,5 +1,5 @@
 ---
-name: file-scan-skill
+name: skill-name-auditor
 description: Audits existing OpenCode skills for ASIS naming compliance, reports violations, and suggests compliant renames.
 license: MIT
 metadata:
@@ -7,7 +7,7 @@ metadata:
   standard: ASIS v2.01
 ---
 
-# File Scan Skill (ASIS Auditor)
+# Skill Name Auditor (ASIS Auditor)
 
 ## What I do
 I scan your `skills/` directory to verify if existing skills comply with the **ASIS v2.0 Naming Standard**.
@@ -19,7 +19,7 @@ I scan your `skills/` directory to verify if existing skills comply with the **A
 
 ## Usage
 ```bash
-skill file-scan-skill
+skill skill-name-auditor
 ```
 
 ## Output
@@ -28,4 +28,4 @@ Prints a JSON report of all skills:
 - **FAIL**: Skill violates standard (with error codes and suggestions).
 
 ## Dependencies
-- Requires `asis-skill-namer` to be present for full suggestion logic.
+- Requires `skill-name-creator` to be present for full suggestion logic.

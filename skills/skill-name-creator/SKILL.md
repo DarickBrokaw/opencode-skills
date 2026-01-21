@@ -1,5 +1,5 @@
 ---
-name: asis-skill-namer
+name: skill-name-creator
 description: Name new OpenCode skills and tool identifiers using the ASIS compliance test; outputs PASS/FAIL with error codes plus a valid OpenCode skill folder name.
 license: MIT
 metadata:

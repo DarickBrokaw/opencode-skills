@@ -11,16 +11,19 @@ import importlib.util
 
 # Configuration
 SKILLS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-NAMER_SCRIPT = os.path.join(SKILLS_DIR, "asis-skill-namer", "scripts", "name_skill.py")
+NAMER_SCRIPT = os.path.join(SKILLS_DIR, "skill-name-creator", "scripts", "name_skill.py")
 
 def load_namer_module():
-    """Dynamically load the asis-skill-namer module."""
+    """Dynamically load the skill-name-creator module."""
     if not os.path.exists(NAMER_SCRIPT):
         return None
     spec = importlib.util.spec_from_file_location("name_skill", NAMER_SCRIPT)
+    if spec is None:
+        return None
     module = importlib.util.module_from_spec(spec)
     sys.modules["name_skill"] = module
-    spec.loader.exec_module(module)
+    if spec.loader:
+        spec.loader.exec_module(module)
     return module
 
 namer = load_namer_module()
