@@ -1,5 +1,5 @@
 ---
-name: show-file-extensions-hidden
+name: file-explorer-file-extensions-show
 description: Configure Windows Explorer to globally show file extensions and hidden files.
 metadata:
   short-description: Show hidden files and extensions
