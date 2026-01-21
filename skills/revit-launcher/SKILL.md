@@ -1,5 +1,5 @@
 ---
-name: autodesk-revit-launcher
+name: revit-launcher
 description: Launch Autodesk Revit 2021/2023/2024/2026 with /nosplash and set the process priority to Realtime. Use when asked to start Revit, select a specific version, or ensure Revit runs at Realtime priority.
 metadata:
   short-description: Launch Autodesk Revit with optimized settings

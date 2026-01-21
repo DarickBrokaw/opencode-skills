@@ -1,5 +1,5 @@
 ---
-name: autodesk-revit-dynamo-launcher
+name: revit-dynamo-launcher
 description: Launches Revit 2024 maximized, opens a bundled template, and auto-launches Dynamo via dynamic journal generation.
 metadata:
   short-description: Complete Revit + Dynamo automated startup
