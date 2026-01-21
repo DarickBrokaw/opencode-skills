@@ -3,6 +3,5 @@ package.json
 bun.lock
 .gitignore
 githubtoken.md
-scripts/
 logs/
 plan.md
