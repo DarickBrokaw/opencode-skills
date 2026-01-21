@@ -64,6 +64,7 @@ function Sync-Changes {
             # Add all changes
             git add skills/
             git add opencode.jsonc
+            git add opencode.jsonc
             
             # Get current branch hash for commit message
             $commitHash = git rev-parse HEAD
