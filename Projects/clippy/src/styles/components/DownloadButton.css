@@ -1,0 +1,55 @@
+/* DownloadButton component styles */
+
+.download-section {
+  padding: 2rem;
+  background: var(--light-color);
+  text-align: center;
+  border-top: 1px solid #dee2e6;
+}
+
+.download-section__title {
+  font-size: 1.4rem;
+  color: var(--success-color);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.download-section__info {
+  color: var(--secondary-color);
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.download-button {
+  background: var(--success-color);
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: 2px solid var(--success-color);
+  text-decoration: none;
+  display: inline-block;
+  transition: var(--transition);
+}
+
+.download-button:hover {
+  background: #218838;
+  border-color: #218838;
+  text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .download-section {
+    padding: 1.5rem 1rem;
+  }
+
+  .download-section__title {
+    font-size: 1.2rem;
+  }
+
+  .download-button {
+    padding: 0.875rem 1.5rem;
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,94 @@
+/* Converter component styles */
+
+.converter {
+  padding: 2rem;
+  background: var(--light-color);
+  border-bottom: 1px solid #dee2e6;
+}
+
+.converter__title {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  color: var(--dark-color);
+  text-align: center;
+}
+
+.converter__options {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.converter__option {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #dee2e6;
+  border-radius: var(--border-radius);
+  background: white;
+  transition: var(--transition);
+  min-width: 100px;
+  justify-content: center;
+}
+
+.converter__option:hover {
+  border-color: var(--primary-color);
+  background: #f8f9ff;
+}
+
+.converter__option:has(.converter__radio:checked) {
+  border-color: var(--primary-color);
+  background: var(--primary-color);
+  color: white;
+}
+
+.converter__radio {
+  display: none;
+}
+
+.converter__label {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.converter__button {
+  background: var(--success-color);
+  color: white;
+  padding: 0.875rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  border: 2px solid var(--success-color);
+}
+
+.converter__button:hover:not(:disabled) {
+  background: #218838;
+  border-color: #218838;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .converter {
+    padding: 1.5rem 1rem;
+  }
+
+  .converter__options {
+    gap: 0.75rem;
+  }
+
+  .converter__option {
+    padding: 0.6rem 1.2rem;
+    min-width: 80px;
+  }
+
+  .converter__title {
+    font-size: 1.2rem;
+  }
+}

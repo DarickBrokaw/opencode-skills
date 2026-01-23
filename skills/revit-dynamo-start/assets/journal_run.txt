@@ -5,7 +5,7 @@ Jrn.Directive "Version" , "2024.000" , "2.179"
 
 ' [OPEN_TEMPLATE_BLOCK_START]
 Jrn.Command "Ribbon" , "Open an existing project , ID_REVIT_FILE_OPEN"
-Jrn.Data "File Name" , "IDOK", "C:\Users\darick\.config\opencode\skills\autodesk-revit-dynamo-launcher\assets\2024templaterevitskill.rte"
+Jrn.Data "File Name" , "IDOK", "C:\Users\darick\.config\opencode\skills\revit-dynamo-start\assets\2024templaterevitskill.rte"
 ' Handle the Template vs Project dialog (1001 = Create New Project)
 Jrn.Data "TaskDialog_Template_File", "1001"
 ' [OPEN_TEMPLATE_BLOCK_END]
