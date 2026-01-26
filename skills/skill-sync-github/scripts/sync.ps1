@@ -14,6 +14,7 @@ $ErrorActionPreference = "Stop"
 
 $repoRoot = "C:\Users\darick\.config\opencode"
 $skillsPath = Join-Path $repoRoot "skills"
+$pluginsPath = Join-Path $repoRoot "plugins"
 $logPath = Join-Path $repoRoot "logs\sync.log"
 
 function Write-Log {
@@ -63,7 +64,7 @@ function Sync-Changes {
             
             # Add all changes
             git add skills/
-            git add opencode.jsonc
+            git add plugins/
             git add opencode.jsonc
             
             # Get current branch hash for commit message
@@ -71,7 +72,7 @@ function Sync-Changes {
             $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
             
             # Create commit
-            git commit -m "Sync skills: $timestamp ($commitHash)"
+            git commit -m "Sync skills and plugins: $timestamp ($commitHash)"
             
             # Push to remote
             Write-Log "Pushing changes to GitHub..."
