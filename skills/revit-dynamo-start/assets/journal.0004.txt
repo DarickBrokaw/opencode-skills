@@ -9590,3 +9590,509 @@ Jrn.Directive  _
 ' 2:< >ER::dumpCache 0 OLD versus 0 NEW 
 ' 2:< <ER::dumpCache 
 ' 0:< PermissionsCache was just synchronized with the centraly model. Currently at revision={"etag":"\"683fdf5b-74d6-4c57-b57b-cc832544a960\"","modelVersionForAESnapshots":31,"modelVersionForCachePopulation":31} 
+' 0:< ::782:: Delta VM: Avail 134127943 MB, Used -1 -> 1372 MB; RAM: Avail +95 -> 96704 MB, Used 1493 MB 
+' 0:< GUI Resource Usage GDI: Avail 8167, Used 1833, User: Used 744 
+' 0:< Operation - ReadServerPermissionUpdatesTask: ModelSessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID 4a7fc189-a77e-420c-ba60-41752f7eaaa3, Central server = "https://model15.skyscraper.autodesk.com/", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}4401-4855 - Park Square - Oviedo IL - V24\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt",  
+' 0:< Operation - PatientOperationRetryAlgo.retryMethod: SessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID 715a3e51-7241-49f3-853b-266ccad17c4f 
+' 0:< ModelPath Created: Is server path = True, Region = "US", Central server = "", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt" 
+' 0:< Time: 1/23/2026 12:04:35:488 Calling: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest) 
+' 0:< 23-Jan-2026 12:04:35:991; {"start_time":"2026-01-23T17:04:35.9915974Z","http_method":"GET","http_url":"https://model15.skyscraper.autodesk.com/ModelService2015/api/projects/a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9/models/ed097fd8-883c-4ce2-9372-227f781af0de/permissions?baseVersionForAeSnapshots=31&baseOeElementId=-1&retryOnContention=True","http_request_headers":"{x-ads-correlation-id=b581ec6a-b220-48a8-9d03-1128eb5da841,x-ads-request-id=3878fd17-c1f8-4a4c-ac1a-c89b28829103,x-ads-ctx-user=VL92E4SDJLUJNBGR,x-ads-rvt-localModelVersion=31,x-ads-rvt-clientModelGuid=58599d1f-2153-4bac-b6ca-ab62297b9d6e,x-ads-rvt-localLatestEpisodeGuid=86893f34-335f-479c-ae83-a492f80ebe66,x-ads-rvt-localMachineName=KARIM-LAPTOP}","duration":502,"http_response_code":200} 
+' 0:< Time: 1/23/2026 12:04:35:991 Returned from: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest 
+' 0:< Cache hit [C:\Users\darick\AppData\Local\Autodesk\Revit\PacCache\ed097fd8-883c-4ce2-9372-227f781af0de\632b8b0c-32d8-4ce0-9b14-2d42e0046c9a\permissionsdata_31.psd] 
+' 1:< ::782:: Delta VM: Avail +8 -> 134127952 MB, Used -1 -> 1371 MB; RAM: Avail +275 -> 96980 MB, Used -2 -> 1492 MB 
+' 1:< GUI Resource Usage GDI: Avail 8167, Used 1833, User: Used 745 
+' 1:< PermissionsCache::update: UpdatedCentralPermissions 28, DeletedCentralPermissions 0, RelinquishedKingElements 0, UpdatedWorksetCheckoutRecords 0, NonexistentPartitionGUID 0, PermissionRequestArr 0, UpdatedUserTable 3 
+' 1:< [MM] readEPU - 28 updated, 0 deleted 
+' 2:< start logDiffEP of only CENTRAL_BORROWS 
+' 2:< [loseEP] origId = 1304601 creation = bf75d0da-e148-4c1c-9277-8bdefd2f6b6d: at 573 granted to [BHeintzZGEPZ] 
+' 2:< [loseEP] origId = 1304614 creation = bf75d0da-e148-4c1c-9277-8bdefd2f6b6d: at 573 granted to [BHeintzZGEPZ] 
+' 2:< [loseEP] origId = 1304615 creation = bf75d0da-e148-4c1c-9277-8bdefd2f6b6d: at 573 granted to [BHeintzZGEPZ] 
+' 2:< [loseEP] origId = 1304616 creation = bf75d0da-e148-4c1c-9277-8bdefd2f6b6d: at 573 granted to [BHeintzZGEPZ] 
+' 2:< [loseEP] origId = 1304629 creation = bf75d0da-e148-4c1c-9277-8bdefd2f6b6d: at 573 granted to [BHeintzZGEPZ] 
+' 2:< [loseEP] origId = 1304630 creation = bf75d0da-e148-4c1c-9277-8bdefd2f6b6d: at 573 granted to [BHeintzZGEPZ] 
+' 2:< stop logDiffEP of only CENTRAL_BORROWS 
+' 2:< >ER::dumpCache 0 OLD versus 0 NEW 
+' 2:< <ER::dumpCache 
+' 0:< PermissionsCache was just synchronized with the centraly model. Currently at revision={"etag":"\"b42016d4-823d-49e4-84cb-7ea28052a9c9\"","modelVersionForAESnapshots":32,"modelVersionForCachePopulation":31} 
+' 0:< ::782:: Delta VM: Avail 134127952 MB, Used 1371 MB; RAM: Avail -12 -> 96969 MB, Used 1492 MB 
+' 0:< GUI Resource Usage GDI: Avail 8167, Used 1833, User: Used 745 
+'C 23-Jan-2026 12:05:28.384;   0:< License Idle: Enter 
+' 0:< ::782:: Delta VM: Avail +3 -> 134127955 MB, Used 1371 MB; RAM: Avail -460 -> 96509 MB, Used -1 -> 1491 MB 
+' 0:< GUI Resource Usage GDI: Avail 8167, Used 1833, User: Used 745 
+' 0:< Operation - ReadServerPermissionUpdatesTask: ModelSessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID d69115ff-dd71-4315-9e28-6712f7a3a10a, Central server = "https://model15.skyscraper.autodesk.com/", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}4401-4855 - Park Square - Oviedo IL - V24\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt",  
+' 0:< Operation - PatientOperationRetryAlgo.retryMethod: SessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID d18e341c-79b1-4600-b2e8-6ea09be257e4 
+' 0:< ModelPath Created: Is server path = True, Region = "US", Central server = "", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt" 
+' 0:< Time: 1/23/2026 12:10:03:169 Calling: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest) 
+' 0:< 23-Jan-2026 12:10:03:329; {"start_time":"2026-01-23T17:10:03.329933Z","http_method":"GET","http_url":"https://model15.skyscraper.autodesk.com/ModelService2015/api/projects/a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9/models/ed097fd8-883c-4ce2-9372-227f781af0de/permissions?baseVersionForAeSnapshots=32&baseOeElementId=-1&retryOnContention=True","http_request_headers":"{x-ads-correlation-id=2282a7d8-aace-4eb5-8779-8f979ac1a7cc,x-ads-request-id=bbe34873-7132-47fd-80e3-4d56b0185939,x-ads-ctx-user=VL92E4SDJLUJNBGR,x-ads-rvt-localModelVersion=31,x-ads-rvt-clientModelGuid=58599d1f-2153-4bac-b6ca-ab62297b9d6e,x-ads-rvt-localLatestEpisodeGuid=86893f34-335f-479c-ae83-a492f80ebe66,x-ads-rvt-localMachineName=KARIM-LAPTOP}","duration":159,"http_response_code":304} 
+' 0:< Time: 1/23/2026 12:10:03:329 Returned from: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest 
+' 0:< ::782:: Delta VM: Avail -1 -> 134127954 MB, Used 1371 MB; RAM: Avail +1161 -> 97670 MB, Used 1491 MB 
+' 0:< GUI Resource Usage GDI: Avail 8167, Used 1833, User: Used 745 
+' 0:< Operation - ReadServerPermissionUpdatesTask: ModelSessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID 00f19e69-16d0-4724-8e10-fa24986a3025, Central server = "https://model15.skyscraper.autodesk.com/", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}4401-4855 - Park Square - Oviedo IL - V24\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt",  
+' 0:< Operation - PatientOperationRetryAlgo.retryMethod: SessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID 57ad06ba-1ff3-468a-9247-60e4acfbaac5 
+' 0:< ModelPath Created: Is server path = True, Region = "US", Central server = "", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt" 
+' 0:< Time: 1/23/2026 12:10:36:487 Calling: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest) 
+' 0:< 23-Jan-2026 12:10:36:589; {"start_time":"2026-01-23T17:10:36.5898877Z","http_method":"GET","http_url":"https://model15.skyscraper.autodesk.com/ModelService2015/api/projects/a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9/models/ed097fd8-883c-4ce2-9372-227f781af0de/permissions?baseVersionForAeSnapshots=32&baseOeElementId=-1&retryOnContention=True","http_request_headers":"{x-ads-correlation-id=7eaafb67-4ad2-497d-9587-cbb3295da522,x-ads-request-id=a6714a7a-6c28-403e-8996-38db3d0c6b4c,x-ads-ctx-user=VL92E4SDJLUJNBGR,x-ads-rvt-localModelVersion=31,x-ads-rvt-clientModelGuid=58599d1f-2153-4bac-b6ca-ab62297b9d6e,x-ads-rvt-localLatestEpisodeGuid=86893f34-335f-479c-ae83-a492f80ebe66,x-ads-rvt-localMachineName=KARIM-LAPTOP}","duration":102,"http_response_code":304} 
+' 0:< Time: 1/23/2026 12:10:36:590 Returned from: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest 
+' 0:< ::782:: Delta VM: Avail -1 -> 134127953 MB, Used 1371 MB; RAM: Avail +111 -> 97782 MB, Used 1491 MB 
+' 0:< GUI Resource Usage GDI: Avail 8167, Used 1833, User: Used 745 
+' 0:< Triggering SSO refresh, SSOStatus : 6. 
+'C 23-Jan-2026 12:11:30.349;  Stop LoginExpiryTimer due to not logged in. 
+'C 23-Jan-2026 12:11:30.349;  LoginExpiryTimer is stopped. 
+' 0:< ::782:: Delta VM: Avail +2 -> 134127956 MB, Used 1371 MB; RAM: Avail -337 -> 97446 MB, Used 1491 MB 
+' 0:< GUI Resource Usage GDI: Avail 8167, Used 1833, User: Used 743 
+' 0:< Operation - ReadServerPermissionUpdatesTask: ModelSessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID ddeaf8aa-cc7b-4e0f-917d-ebf0dffe123d, Central server = "https://model15.skyscraper.autodesk.com/", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}4401-4855 - Park Square - Oviedo IL - V24\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt",  
+' 0:< Operation - PatientOperationRetryAlgo.retryMethod: SessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID 45f06d36-9139-4115-9280-ca1e25fc5751 
+' 0:< ModelPath Created: Is server path = True, Region = "US", Central server = "", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt" 
+' 0:< Time: 1/23/2026 12:14:39:691 Calling: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest) 
+' 0:< 23-Jan-2026 12:14:39:911; {"start_time":"2026-01-23T17:14:39.9112006Z","http_method":"GET","http_url":"https://model15.skyscraper.autodesk.com/ModelService2015/api/projects/a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9/models/ed097fd8-883c-4ce2-9372-227f781af0de/permissions?baseVersionForAeSnapshots=32&baseOeElementId=-1&retryOnContention=True","http_request_headers":"{x-ads-correlation-id=58d84b08-a7c8-4487-9703-c1432fbdfd26,x-ads-request-id=5e1b075d-039e-45bc-842b-5fffda89aa99,x-ads-ctx-user=VL92E4SDJLUJNBGR,x-ads-rvt-localModelVersion=31,x-ads-rvt-clientModelGuid=58599d1f-2153-4bac-b6ca-ab62297b9d6e,x-ads-rvt-localLatestEpisodeGuid=86893f34-335f-479c-ae83-a492f80ebe66,x-ads-rvt-localMachineName=KARIM-LAPTOP}","duration":218,"http_response_code":304} 
+' 0:< Time: 1/23/2026 12:14:39:911 Returned from: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest 
+' 0:< ::782:: Delta VM: Avail +1 -> 134127957 MB, Used 1371 MB; RAM: Avail +458 -> 97905 MB, Used 1491 MB 
+' 0:< GUI Resource Usage GDI: Avail 8167, Used 1833, User: Used 744 
+' 0:< Operation - ReadServerPermissionUpdatesTask: ModelSessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID 2e44afba-1458-49d4-bb57-6e8e54ed6e31, Central server = "https://model15.skyscraper.autodesk.com/", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}4401-4855 - Park Square - Oviedo IL - V24\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt",  
+' 0:< Operation - PatientOperationRetryAlgo.retryMethod: SessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID 2bf60533-3824-45c6-b7d5-43aee1d80eea 
+' 0:< ModelPath Created: Is server path = True, Region = "US", Central server = "", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt" 
+' 0:< Time: 1/23/2026 12:17:17:290 Calling: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest) 
+' 0:< 23-Jan-2026 12:17:17:458; {"start_time":"2026-01-23T17:17:17.4588229Z","http_method":"GET","http_url":"https://model15.skyscraper.autodesk.com/ModelService2015/api/projects/a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9/models/ed097fd8-883c-4ce2-9372-227f781af0de/permissions?baseVersionForAeSnapshots=32&baseOeElementId=-1&retryOnContention=True","http_request_headers":"{x-ads-correlation-id=d3efa557-d57e-4a1d-8145-9286ac4ef23e,x-ads-request-id=8ceb19e2-d36e-4cb3-b5a6-9e8809a4a031,x-ads-ctx-user=VL92E4SDJLUJNBGR,x-ads-rvt-localModelVersion=31,x-ads-rvt-clientModelGuid=58599d1f-2153-4bac-b6ca-ab62297b9d6e,x-ads-rvt-localLatestEpisodeGuid=86893f34-335f-479c-ae83-a492f80ebe66,x-ads-rvt-localMachineName=KARIM-LAPTOP}","duration":167,"http_response_code":304} 
+' 0:< Time: 1/23/2026 12:17:17:459 Returned from: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest 
+' 0:< ::782:: Delta VM: Avail -3 -> 134127954 MB, Used 1371 MB; RAM: Avail +278 -> 98183 MB, Used 1491 MB 
+' 0:< GUI Resource Usage GDI: Avail 8167, Used 1833, User: Used 744 
+' 0:< Operation - ReadServerPermissionUpdatesTask: ModelSessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID c4c78ea3-cf98-4707-b88c-7308ba76d30b, Central server = "https://model15.skyscraper.autodesk.com/", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}4401-4855 - Park Square - Oviedo IL - V24\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt",  
+' 0:< Operation - PatientOperationRetryAlgo.retryMethod: SessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID 787c3032-37c8-4a5f-b80a-0d1128e8a708 
+' 0:< ModelPath Created: Is server path = True, Region = "US", Central server = "", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt" 
+' 0:< Time: 1/23/2026 12:23:17:761 Calling: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest) 
+' 0:< 23-Jan-2026 12:23:17:963; {"start_time":"2026-01-23T17:23:17.9633825Z","http_method":"GET","http_url":"https://model15.skyscraper.autodesk.com/ModelService2015/api/projects/a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9/models/ed097fd8-883c-4ce2-9372-227f781af0de/permissions?baseVersionForAeSnapshots=32&baseOeElementId=-1&retryOnContention=True","http_request_headers":"{x-ads-correlation-id=05692bee-8932-44ec-ab4c-5ec9d726f984,x-ads-request-id=ec42627b-f68b-49ec-be1f-93ac35e60cc2,x-ads-ctx-user=VL92E4SDJLUJNBGR,x-ads-rvt-localModelVersion=31,x-ads-rvt-clientModelGuid=58599d1f-2153-4bac-b6ca-ab62297b9d6e,x-ads-rvt-localLatestEpisodeGuid=86893f34-335f-479c-ae83-a492f80ebe66,x-ads-rvt-localMachineName=KARIM-LAPTOP}","duration":201,"http_response_code":304} 
+' 0:< Time: 1/23/2026 12:23:17:964 Returned from: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest 
+' 0:< ::782:: Delta VM: Avail 134127954 MB, Used 1371 MB; RAM: Avail -148 -> 98036 MB, Used +0 -> 1492 MB 
+' 0:< GUI Resource Usage GDI: Avail 8167, Used 1833, User: Used 743 
+' 0:< Operation - ReadServerPermissionUpdatesTask: ModelSessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID f31df1b0-fa86-46b5-8c02-4448c6a8ae3d, Central server = "https://model15.skyscraper.autodesk.com/", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}4401-4855 - Park Square - Oviedo IL - V24\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt",  
+' 0:< Operation - PatientOperationRetryAlgo.retryMethod: SessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID d8f18d08-0e4c-434f-9ae3-8e2784cdd568 
+' 0:< ModelPath Created: Is server path = True, Region = "US", Central server = "", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt" 
+' 0:< Time: 1/23/2026 12:25:03:013 Calling: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest) 
+' 0:< 23-Jan-2026 12:25:03:157; {"start_time":"2026-01-23T17:25:03.1579848Z","http_method":"GET","http_url":"https://model15.skyscraper.autodesk.com/ModelService2015/api/projects/a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9/models/ed097fd8-883c-4ce2-9372-227f781af0de/permissions?baseVersionForAeSnapshots=32&baseOeElementId=-1&retryOnContention=True","http_request_headers":"{x-ads-correlation-id=085f1597-e644-4721-885f-f41b9a706826,x-ads-request-id=d3a0aaee-80ec-4ea7-a3ef-3267766b4f1a,x-ads-ctx-user=VL92E4SDJLUJNBGR,x-ads-rvt-localModelVersion=31,x-ads-rvt-clientModelGuid=58599d1f-2153-4bac-b6ca-ab62297b9d6e,x-ads-rvt-localLatestEpisodeGuid=86893f34-335f-479c-ae83-a492f80ebe66,x-ads-rvt-localMachineName=KARIM-LAPTOP}","duration":143,"http_response_code":304} 
+' 0:< Time: 1/23/2026 12:25:03:158 Returned from: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest 
+' 0:< ::782:: Delta VM: Avail +1 -> 134127955 MB, Used 1371 MB; RAM: Avail -1046 -> 96991 MB, Used -1 -> 1491 MB 
+' 0:< GUI Resource Usage GDI: Avail 8167, Used 1833, User: Used 744 
+' 0:< Operation - ReadServerPermissionUpdatesTask: ModelSessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID 75ec0926-a4fc-40a1-8e05-c0acf11925be, Central server = "https://model15.skyscraper.autodesk.com/", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}4401-4855 - Park Square - Oviedo IL - V24\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt",  
+' 0:< Operation - PatientOperationRetryAlgo.retryMethod: SessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID f7851179-597d-401f-98cb-bdf2edf5b38e 
+' 0:< ModelPath Created: Is server path = True, Region = "US", Central server = "", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt" 
+' 0:< Time: 1/23/2026 12:29:18:776 Calling: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest) 
+' 0:< 23-Jan-2026 12:29:18:957; {"start_time":"2026-01-23T17:29:18.9570263Z","http_method":"GET","http_url":"https://model15.skyscraper.autodesk.com/ModelService2015/api/projects/a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9/models/ed097fd8-883c-4ce2-9372-227f781af0de/permissions?baseVersionForAeSnapshots=32&baseOeElementId=-1&retryOnContention=True","http_request_headers":"{x-ads-correlation-id=2b564a0c-d169-43d8-95f9-b7e32644491c,x-ads-request-id=4843a327-226a-4162-9079-ab87ca9e2f0c,x-ads-ctx-user=VL92E4SDJLUJNBGR,x-ads-rvt-localModelVersion=31,x-ads-rvt-clientModelGuid=58599d1f-2153-4bac-b6ca-ab62297b9d6e,x-ads-rvt-localLatestEpisodeGuid=86893f34-335f-479c-ae83-a492f80ebe66,x-ads-rvt-localMachineName=KARIM-LAPTOP}","duration":180,"http_response_code":304} 
+' 0:< Time: 1/23/2026 12:29:18:957 Returned from: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest 
+' 0:< ::782:: Delta VM: Avail 134127955 MB, Used 1371 MB; RAM: Avail -807 -> 96184 MB, Used 1491 MB 
+' 0:< GUI Resource Usage GDI: Avail 8167, Used 1833, User: Used 744 
+' 0:< Operation - ReadServerPermissionUpdatesTask: ModelSessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID 2039f7f7-8a55-4629-98de-089b3ff90e3a, Central server = "https://model15.skyscraper.autodesk.com/", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}4401-4855 - Park Square - Oviedo IL - V24\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt",  
+' 0:< Operation - PatientOperationRetryAlgo.retryMethod: SessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID ce41c153-2ad5-4f7c-82ef-7afda067743c 
+' 0:< ModelPath Created: Is server path = True, Region = "US", Central server = "", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt" 
+' 0:< Time: 1/23/2026 12:35:19:776 Calling: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest) 
+' 0:< 23-Jan-2026 12:35:19:961; {"start_time":"2026-01-23T17:35:19.9614675Z","http_method":"GET","http_url":"https://model15.skyscraper.autodesk.com/ModelService2015/api/projects/a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9/models/ed097fd8-883c-4ce2-9372-227f781af0de/permissions?baseVersionForAeSnapshots=32&baseOeElementId=-1&retryOnContention=True","http_request_headers":"{x-ads-correlation-id=36cb63ce-02b7-490e-8b6b-8c2e55ff5347,x-ads-request-id=b1cccb79-b064-4320-9eea-ba092f2b8afa,x-ads-ctx-user=VL92E4SDJLUJNBGR,x-ads-rvt-localModelVersion=31,x-ads-rvt-clientModelGuid=58599d1f-2153-4bac-b6ca-ab62297b9d6e,x-ads-rvt-localLatestEpisodeGuid=86893f34-335f-479c-ae83-a492f80ebe66,x-ads-rvt-localMachineName=KARIM-LAPTOP}","duration":184,"http_response_code":304} 
+' 0:< Time: 1/23/2026 12:35:19:961 Returned from: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest 
+' 0:< ::782:: Delta VM: Avail 134127955 MB, Used 1371 MB; RAM: Avail +356 -> 96541 MB, Used 1491 MB 
+' 0:< GUI Resource Usage GDI: Avail 8167, Used 1833, User: Used 743 
+' 0:< Operation - ReadServerPermissionUpdatesTask: ModelSessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID d8aea31a-531e-4ad8-b2a8-a233fb518497, Central server = "https://model15.skyscraper.autodesk.com/", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}4401-4855 - Park Square - Oviedo IL - V24\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt",  
+' 0:< Operation - PatientOperationRetryAlgo.retryMethod: SessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID 17150e2e-c94d-4c26-ab93-964d1ff82462 
+' 0:< ModelPath Created: Is server path = True, Region = "US", Central server = "", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt" 
+' 0:< Time: 1/23/2026 12:41:20:781 Calling: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest) 
+' 0:< 23-Jan-2026 12:41:21:013; {"start_time":"2026-01-23T17:41:21.0138767Z","http_method":"GET","http_url":"https://model15.skyscraper.autodesk.com/ModelService2015/api/projects/a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9/models/ed097fd8-883c-4ce2-9372-227f781af0de/permissions?baseVersionForAeSnapshots=32&baseOeElementId=-1&retryOnContention=True","http_request_headers":"{x-ads-correlation-id=673db189-2e90-46cc-a73f-ba44a2178593,x-ads-request-id=2a3a0926-3ccc-45a2-acf7-e84dcfc8b583,x-ads-ctx-user=VL92E4SDJLUJNBGR,x-ads-rvt-localModelVersion=31,x-ads-rvt-clientModelGuid=58599d1f-2153-4bac-b6ca-ab62297b9d6e,x-ads-rvt-localLatestEpisodeGuid=86893f34-335f-479c-ae83-a492f80ebe66,x-ads-rvt-localMachineName=KARIM-LAPTOP}","duration":233,"http_response_code":304} 
+' 0:< Time: 1/23/2026 12:41:21:015 Returned from: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest 
+' 0:< ::782:: Delta VM: Avail 134127955 MB, Used 1371 MB; RAM: Avail -227 -> 96314 MB, Used +0 -> 1492 MB 
+' 0:< GUI Resource Usage GDI: Avail 8167, Used 1833, User: Used 744 
+' 0:< Operation - ReadServerPermissionUpdatesTask: ModelSessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID 14f93ab1-f0c6-4b15-b336-7854224843c3, Central server = "https://model15.skyscraper.autodesk.com/", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}4401-4855 - Park Square - Oviedo IL - V24\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt",  
+' 0:< Operation - PatientOperationRetryAlgo.retryMethod: SessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID a3363a45-5b07-42e6-9273-911719c40c32 
+' 0:< ModelPath Created: Is server path = True, Region = "US", Central server = "", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt" 
+' 0:< Time: 1/23/2026 12:47:21:775 Calling: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest) 
+' 0:< 23-Jan-2026 12:47:21:946; {"start_time":"2026-01-23T17:47:21.9461589Z","http_method":"GET","http_url":"https://model15.skyscraper.autodesk.com/ModelService2015/api/projects/a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9/models/ed097fd8-883c-4ce2-9372-227f781af0de/permissions?baseVersionForAeSnapshots=32&baseOeElementId=-1&retryOnContention=True","http_request_headers":"{x-ads-correlation-id=c365a325-c6d1-484b-a6cf-0cf7f42a70cf,x-ads-request-id=ca3e5914-ea2a-4384-b3bc-457d89f4f92a,x-ads-ctx-user=VL92E4SDJLUJNBGR,x-ads-rvt-localModelVersion=31,x-ads-rvt-clientModelGuid=58599d1f-2153-4bac-b6ca-ab62297b9d6e,x-ads-rvt-localLatestEpisodeGuid=86893f34-335f-479c-ae83-a492f80ebe66,x-ads-rvt-localMachineName=KARIM-LAPTOP}","duration":171,"http_response_code":304} 
+' 0:< Time: 1/23/2026 12:47:21:946 Returned from: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest 
+' 0:< ::782:: Delta VM: Avail +1 -> 134127956 MB, Used +0 -> 1372 MB; RAM: Avail -1074 -> 95241 MB, Used 1492 MB 
+' 0:< GUI Resource Usage GDI: Avail 8167, Used 1833, User: Used 742 
+' 0:< Operation - ReadServerPermissionUpdatesTask: ModelSessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID 00c192be-45b5-4adc-9287-71bb88c26142, Central server = "https://model15.skyscraper.autodesk.com/", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}4401-4855 - Park Square - Oviedo IL - V24\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt",  
+' 0:< Operation - PatientOperationRetryAlgo.retryMethod: SessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID 85b1035a-d4f8-427c-962d-78df268fb3d3 
+' 0:< ModelPath Created: Is server path = True, Region = "US", Central server = "", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt" 
+' 0:< Time: 1/23/2026 12:52:29:281 Calling: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest) 
+' 0:< 23-Jan-2026 12:52:29:455; {"start_time":"2026-01-23T17:52:29.4557191Z","http_method":"GET","http_url":"https://model15.skyscraper.autodesk.com/ModelService2015/api/projects/a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9/models/ed097fd8-883c-4ce2-9372-227f781af0de/permissions?baseVersionForAeSnapshots=32&baseOeElementId=-1&retryOnContention=True","http_request_headers":"{x-ads-correlation-id=268668f1-69b9-4e96-b639-d11c7f785788,x-ads-request-id=b50932bc-495b-4cf5-8c3f-0f0a29b1c486,x-ads-ctx-user=VL92E4SDJLUJNBGR,x-ads-rvt-localModelVersion=31,x-ads-rvt-clientModelGuid=58599d1f-2153-4bac-b6ca-ab62297b9d6e,x-ads-rvt-localLatestEpisodeGuid=86893f34-335f-479c-ae83-a492f80ebe66,x-ads-rvt-localMachineName=KARIM-LAPTOP}","duration":174,"http_response_code":304} 
+' 0:< Time: 1/23/2026 12:52:29:456 Returned from: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest 
+' 0:< ::782:: Delta VM: Avail -3 -> 134127953 MB, Used 1372 MB; RAM: Avail +164 -> 95405 MB, Used 1492 MB 
+' 0:< GUI Resource Usage GDI: Avail 8167, Used 1833, User: Used 743 
+' 0:< Operation - ReadServerPermissionUpdatesTask: ModelSessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID 93dd6504-66eb-4878-a22f-796c306dc5cc, Central server = "https://model15.skyscraper.autodesk.com/", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}4401-4855 - Park Square - Oviedo IL - V24\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt",  
+' 0:< Operation - PatientOperationRetryAlgo.retryMethod: SessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID 61a1db20-64bf-450a-b839-bf8dfe9e51ee 
+' 0:< ModelPath Created: Is server path = True, Region = "US", Central server = "", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt" 
+' 0:< Time: 1/23/2026 12:53:15:669 Calling: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest) 
+' 0:< 23-Jan-2026 12:53:15:750; {"start_time":"2026-01-23T17:53:15.7501048Z","http_method":"GET","http_url":"https://model15.skyscraper.autodesk.com/ModelService2015/api/projects/a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9/models/ed097fd8-883c-4ce2-9372-227f781af0de/permissions?baseVersionForAeSnapshots=32&baseOeElementId=-1&retryOnContention=True","http_request_headers":"{x-ads-correlation-id=88e19160-6329-4de2-9118-18312f472e1f,x-ads-request-id=daa910f2-197c-478a-8036-667fc1d53311,x-ads-ctx-user=VL92E4SDJLUJNBGR,x-ads-rvt-localModelVersion=31,x-ads-rvt-clientModelGuid=58599d1f-2153-4bac-b6ca-ab62297b9d6e,x-ads-rvt-localLatestEpisodeGuid=86893f34-335f-479c-ae83-a492f80ebe66,x-ads-rvt-localMachineName=KARIM-LAPTOP}","duration":80,"http_response_code":304} 
+' 0:< Time: 1/23/2026 12:53:15:751 Returned from: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest 
+' 0:< ::782:: Delta VM: Avail -74 -> 134127880 MB, Used 1372 MB; RAM: Avail -265 -> 95140 MB, Used 1492 MB 
+' 0:< GUI Resource Usage GDI: Avail 8167, Used 1833, User: Used 744 
+' 0:< Operation - ReadServerPermissionUpdatesTask: ModelSessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID dd555e49-f49d-43de-bea1-3591943d34aa, Central server = "https://model15.skyscraper.autodesk.com/", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}4401-4855 - Park Square - Oviedo IL - V24\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt",  
+' 0:< Operation - PatientOperationRetryAlgo.retryMethod: SessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID 34669174-8a5f-4aaa-956c-9a560ae7ba59 
+' 0:< ModelPath Created: Is server path = True, Region = "US", Central server = "", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt" 
+' 0:< Time: 1/23/2026 12:53:39:483 Calling: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest) 
+' 0:< 23-Jan-2026 12:53:39:574; {"start_time":"2026-01-23T17:53:39.5741444Z","http_method":"GET","http_url":"https://model15.skyscraper.autodesk.com/ModelService2015/api/projects/a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9/models/ed097fd8-883c-4ce2-9372-227f781af0de/permissions?baseVersionForAeSnapshots=32&baseOeElementId=-1&retryOnContention=True","http_request_headers":"{x-ads-correlation-id=d046fa67-b089-4220-852c-c1e30673c247,x-ads-request-id=720de006-6e4c-44ca-99e1-b68304133da9,x-ads-ctx-user=VL92E4SDJLUJNBGR,x-ads-rvt-localModelVersion=31,x-ads-rvt-clientModelGuid=58599d1f-2153-4bac-b6ca-ab62297b9d6e,x-ads-rvt-localLatestEpisodeGuid=86893f34-335f-479c-ae83-a492f80ebe66,x-ads-rvt-localMachineName=KARIM-LAPTOP}","duration":90,"http_response_code":304} 
+' 0:< Time: 1/23/2026 12:53:39:575 Returned from: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest 
+' 0:< ::782:: Delta VM: Avail +74 -> 134127955 MB, Used 1372 MB; RAM: Avail -155 -> 94986 MB, Used 1492 MB 
+' 0:< GUI Resource Usage GDI: Avail 8167, Used 1833, User: Used 743 
+' 0:< Operation - ReadServerPermissionUpdatesTask: ModelSessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID 175015a6-79e1-48d1-8373-38029061f193, Central server = "https://model15.skyscraper.autodesk.com/", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}4401-4855 - Park Square - Oviedo IL - V24\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt",  
+' 0:< Operation - PatientOperationRetryAlgo.retryMethod: SessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID 993ba0c2-2c12-4157-a9f9-cd8448f2bc50 
+' 0:< ModelPath Created: Is server path = True, Region = "US", Central server = "", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt" 
+' 0:< Time: 1/23/2026 12:59:23:774 Calling: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest) 
+' 0:< 23-Jan-2026 12:59:23:997; {"start_time":"2026-01-23T17:59:23.997059Z","http_method":"GET","http_url":"https://model15.skyscraper.autodesk.com/ModelService2015/api/projects/a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9/models/ed097fd8-883c-4ce2-9372-227f781af0de/permissions?baseVersionForAeSnapshots=32&baseOeElementId=-1&retryOnContention=True","http_request_headers":"{x-ads-correlation-id=113f4884-518f-4171-a75e-9169363059b1,x-ads-request-id=ddaeb438-ffe3-4057-838a-0f254743db58,x-ads-ctx-user=VL92E4SDJLUJNBGR,x-ads-rvt-localModelVersion=31,x-ads-rvt-clientModelGuid=58599d1f-2153-4bac-b6ca-ab62297b9d6e,x-ads-rvt-localLatestEpisodeGuid=86893f34-335f-479c-ae83-a492f80ebe66,x-ads-rvt-localMachineName=KARIM-LAPTOP}","duration":222,"http_response_code":304} 
+' 0:< Time: 1/23/2026 12:59:23:998 Returned from: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest 
+' 0:< ::782:: Delta VM: Avail 134127955 MB, Used 1372 MB; RAM: Avail +371 -> 95357 MB, Used 1492 MB 
+' 0:< GUI Resource Usage GDI: Avail 8167, Used 1833, User: Used 743 
+' 0:< Operation - ReadServerPermissionUpdatesTask: ModelSessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID e5eb6908-5165-48df-96af-587b6b89287f, Central server = "https://model15.skyscraper.autodesk.com/", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}4401-4855 - Park Square - Oviedo IL - V24\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt",  
+' 0:< Operation - PatientOperationRetryAlgo.retryMethod: SessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID fe3c3e9c-7834-4638-98aa-8321a10243b6 
+' 0:< ModelPath Created: Is server path = True, Region = "US", Central server = "", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt" 
+' 0:< Time: 1/23/2026 13:05:24:776 Calling: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest) 
+' 0:< 23-Jan-2026 01:05:24:961; {"start_time":"2026-01-23T18:05:24.9613252Z","http_method":"GET","http_url":"https://model15.skyscraper.autodesk.com/ModelService2015/api/projects/a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9/models/ed097fd8-883c-4ce2-9372-227f781af0de/permissions?baseVersionForAeSnapshots=32&baseOeElementId=-1&retryOnContention=True","http_request_headers":"{x-ads-correlation-id=68ff3c3d-f7e1-4cb5-b615-6770013bec3c,x-ads-request-id=184e2637-8baa-4868-bb74-276f21eea520,x-ads-ctx-user=VL92E4SDJLUJNBGR,x-ads-rvt-localModelVersion=31,x-ads-rvt-clientModelGuid=58599d1f-2153-4bac-b6ca-ab62297b9d6e,x-ads-rvt-localLatestEpisodeGuid=86893f34-335f-479c-ae83-a492f80ebe66,x-ads-rvt-localMachineName=KARIM-LAPTOP}","duration":184,"http_response_code":304} 
+' 0:< Time: 1/23/2026 13:05:24:961 Returned from: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest 
+' 0:< ::782:: Delta VM: Avail 134127955 MB, Used 1372 MB; RAM: Avail -718 -> 94640 MB, Used 1492 MB 
+' 0:< GUI Resource Usage GDI: Avail 8167, Used 1833, User: Used 743 
+' 0:< Operation - ReadServerPermissionUpdatesTask: ModelSessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID 7d9a083e-d653-480a-9e7c-7f2d3dfc0f06, Central server = "https://model15.skyscraper.autodesk.com/", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}4401-4855 - Park Square - Oviedo IL - V24\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt",  
+' 0:< Operation - PatientOperationRetryAlgo.retryMethod: SessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID 23fdf1e1-24b5-4104-95ff-19f1644c0c75 
+' 0:< ModelPath Created: Is server path = True, Region = "US", Central server = "", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt" 
+' 0:< Time: 1/23/2026 13:11:25:768 Calling: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest) 
+' 0:< 23-Jan-2026 01:11:25:947; {"start_time":"2026-01-23T18:11:25.947848Z","http_method":"GET","http_url":"https://model15.skyscraper.autodesk.com/ModelService2015/api/projects/a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9/models/ed097fd8-883c-4ce2-9372-227f781af0de/permissions?baseVersionForAeSnapshots=32&baseOeElementId=-1&retryOnContention=True","http_request_headers":"{x-ads-correlation-id=47a9840a-67f1-4a75-865c-00cf6e1fad31,x-ads-request-id=e8b59e00-aacc-4f3f-ab96-95a5e3d384c6,x-ads-ctx-user=VL92E4SDJLUJNBGR,x-ads-rvt-localModelVersion=31,x-ads-rvt-clientModelGuid=58599d1f-2153-4bac-b6ca-ab62297b9d6e,x-ads-rvt-localLatestEpisodeGuid=86893f34-335f-479c-ae83-a492f80ebe66,x-ads-rvt-localMachineName=KARIM-LAPTOP}","duration":178,"http_response_code":304} 
+' 0:< Time: 1/23/2026 13:11:25:948 Returned from: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest 
+' 0:< ::782:: Delta VM: Avail +0 -> 134127956 MB, Used 1372 MB; RAM: Avail -401 -> 94239 MB, Used 1492 MB 
+' 0:< GUI Resource Usage GDI: Avail 8167, Used 1833, User: Used 743 
+' 0:< Operation - ReadServerPermissionUpdatesTask: ModelSessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID 0b9d4073-06ed-43d4-a6df-9e9749fae22d, Central server = "https://model15.skyscraper.autodesk.com/", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}4401-4855 - Park Square - Oviedo IL - V24\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt",  
+' 0:< Operation - PatientOperationRetryAlgo.retryMethod: SessionToken: User's Name dbrokaw44TRW_BGPU, User's Machine Name KARIM-LAPTOP, Operation GUID 6138cc6b-ff9f-4fa1-aa58-5ce6e2a81f65 
+' 0:< ModelPath Created: Is server path = True, Region = "US", Central server = "", Path = "CLD:\\US\{a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9}\{ed097fd8-883c-4ce2-9372-227f781af0de}4401-4855-24ID.rvt" 
+' 0:< Time: 1/23/2026 13:17:26:770 Calling: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest) 
+' 0:< 23-Jan-2026 01:17:26:939; {"start_time":"2026-01-23T18:17:26.9392357Z","http_method":"GET","http_url":"https://model15.skyscraper.autodesk.com/ModelService2015/api/projects/a1fd75e2-6fcf-48f8-9bdd-0cd466569cb9/models/ed097fd8-883c-4ce2-9372-227f781af0de/permissions?baseVersionForAeSnapshots=32&baseOeElementId=-1&retryOnContention=True","http_request_headers":"{x-ads-correlation-id=fa657c9f-aef2-4767-b03d-3833af7afa7e,x-ads-request-id=bf582e84-5e6e-4b6a-bb6c-64e9b54da898,x-ads-ctx-user=VL92E4SDJLUJNBGR,x-ads-rvt-localModelVersion=31,x-ads-rvt-clientModelGuid=58599d1f-2153-4bac-b6ca-ab62297b9d6e,x-ads-rvt-localLatestEpisodeGuid=86893f34-335f-479c-ae83-a492f80ebe66,x-ads-rvt-localMachineName=KARIM-LAPTOP}","duration":169,"http_response_code":304} 
+' 0:< Time: 1/23/2026 13:17:26:940 Returned from: Autodesk.C4R.Model.Client.DataContracts.GetAllPermissionsRequest 
+' 0:< ::782:: Delta VM: Avail 134127956 MB, Used 1372 MB; RAM: Avail +1522 -> 95762 MB, Used 1492 MB 
+' 0:< GUI Resource Usage GDI: Avail 8167, Used 1833, User: Used 743 
+'C 23-Jan-2026 13:19:57.314;   0:< Notify Active View. 
+  ' 0:< ::782:: Delta VM: Avail -2 -> 134127955 MB, Used +1 -> 1373 MB; RAM: Avail -19 -> 95743 MB, Used +1 -> 1494 MB 
+  ' 0:< GUI Resource Usage GDI: Avail 8167, Used 1833, User: Used 744 
+  'C 23-Jan-2026 13:19:57.396;   0:< License Idle: Exit 
+  'E 23-Jan-2026 13:19:57.396;   0:< 
+  Jrn.Size        0 ,    526 ,    129
+  'H 23-Jan-2026 13:19:57.402;   0:< 
+  Jrn.Directive  _
+          "WindowSize"  , "[ed097fd8-883c-4ce2-9372-227f781af0de.rvt]" , "Sheet: ID10.01 - General Notes"  _
+          , 526, 129
+  ' 0:< ::783:: Delta VM: Avail +11 -> 134127966 MB, Used -12 -> 1361 MB; RAM: Avail +73 -> 95817 MB, Used -13 -> 1481 MB 
+  ' 0:< GUI Resource Usage GDI: Avail 8162, Used 1838, User: Used 745 
+  'E 23-Jan-2026 13:19:59.291;   0:< 
+  Jrn.Command "Internal"  , "Quit the application; prompts to save projects , ID_APP_EXIT" 
+  ' 0:< Time consumed by SaveLayout(): 66 
+  ' 0:< UI Layout Analytics Data - Total open views: 1, Floating views: 0 
+    'E 23-Jan-2026 13:19:59.379;   0:< 
+    ' [Jrn.CloseDocumentFile] 1
+      ' 0:< ::785:: Delta VM: Avail -2 -> 134127964 MB, Used +1 -> 1362 MB; RAM: Avail +92 -> 95909 MB, Used +1 -> 1482 MB 
+      ' 0:< GUI Resource Usage GDI: Avail 8169, Used 1831, User: Used 737 
+      'E 23-Jan-2026 13:19:59.550;   0:< 
+        ' 0:< PropertiesPalette Action:Activate 
+        'E 23-Jan-2026 13:19:59.572;   0:< 
+        ' [Jrn.TabbedViewAnalytics] ProjectCount: 0
+        'E 23-Jan-2026 13:19:59.572;   0:< 
+        ' [Jrn.TabbedViewAnalytics] ViewCount: 0
+      ' 0:< Properties Palette Deactivate 
+      ' 0:< CrsTimer event occurred for 2 times in DesktopMFCView [Sheet: ID10.01 - General Notes] 
+    ' 0:< ::788:: Delta VM: Avail -72 -> 134127892 MB, Used 1362 MB; RAM: Avail -5 -> 95905 MB, Used 1482 MB 
+    ' 0:< GUI Resource Usage GDI: Avail 8275, Used 1725, User: Used 678 
+    ' 0:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+    ' 0:< RAM Statistics:    95905 /   130257      1482=InUse     1528=Peak  
+    ' 0:< VM  Statistics: 134127892 / 134217727      1362=InUse     1579=Peak ;oCD; 
+      'E 23-Jan-2026 13:19:59.612;   0:< 
+      Jrn.Command "Internal"  , " , ID_REVIT_MODEL_BROWSER_OPEN" 
+        'E 23-Jan-2026 13:19:59.622;   0:< 
+        Jrn.RibbonEvent "ModelBrowserIsOpenChangedEvent:Open" 
+      ' 0:< ::790:: Delta VM: Avail -6 -> 134127887 MB, Used 1362 MB; RAM: Avail -30 -> 95875 MB, Used 1482 MB 
+      ' 0:< GUI Resource Usage GDI: Avail 8275, Used 1725, User: Used 679 
+      'E 23-Jan-2026 13:19:59.639;   0:< 
+      ' [Jrn.AddInDynamicUpdate] Rvt.Attr.AddInId: e42ff806-491d-4b17-9afb-ea051d5ebb76 Rvt.Attr.NumberOfExecutions: 0 Rvt.Attr.UpdaterId: ae4e97c2-0a02-4296-ad9a-e1e4b67ff8f3 Rvt.Attr.UpdaterName: LevelElevationChangesBasedGridUpdater 
+    ' 0:< Third Party Updater 'Revit: LevelElevationChangesBasedGridUpdater' has been unregistered. 
+      'E 23-Jan-2026 13:19:59.639;   0:< 
+      ' [Jrn.AddInDynamicUpdate] Rvt.Attr.AddInId: e42ff806-491d-4b17-9afb-ea051d5ebb76 Rvt.Attr.NumberOfExecutions: 0 Rvt.Attr.UpdaterId: 7a50c865-8c66-4dfd-be70-4af939405a2c Rvt.Attr.UpdaterName: ObjectNumberingUpdater 
+    ' 0:< Third Party Updater 'Revit: ObjectNumberingUpdater' has been unregistered. 
+      'E 23-Jan-2026 13:19:59.640;   0:< 
+      ' [Jrn.AddInDynamicUpdate] Rvt.Attr.AddInId: e42ff806-491d-4b17-9afb-ea051d5ebb76 Rvt.Attr.NumberOfExecutions: 0 Rvt.Attr.UpdaterId: 8e98db97-2611-49ee-94ae-acfa274a5680 Rvt.Attr.UpdaterName: ObjectNumberingUpdater 
+    ' 0:< Third Party Updater 'Revit: ObjectNumberingUpdater' has been unregistered. 
+      'E 23-Jan-2026 13:19:59.640;   0:< 
+      ' [Jrn.AddInDynamicUpdate] Rvt.Attr.AddInId: e42ff806-491d-4b17-9afb-ea051d5ebb76 Rvt.Attr.NumberOfExecutions: 0 Rvt.Attr.UpdaterId: 43d605d1-fae9-43da-adff-55eb76e2bb4f Rvt.Attr.UpdaterName: ObjectNumberingUpdater 
+    ' 0:< Third Party Updater 'Revit: ObjectNumberingUpdater' has been unregistered. 
+    ' 0:< Before : Destroy Display Manager 
+    ' 0:< ::794:: Delta VM: Avail 134127887 MB, Used 1362 MB; RAM: Avail -15 -> 95861 MB, Used 1482 MB 
+    ' 0:< GUI Resource Usage GDI: Avail 8275, Used 1725, User: Used 679 
+    ' 0:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+    ' 0:< RAM Statistics:    95861 /   130257      1482=InUse     1528=Peak  
+    ' 0:< VM  Statistics: 134127887 / 134217727      1362=InUse     1579=Peak  
+    ' 0:< After : Destroy Display Manager 
+    ' 0:< ::794:: Delta VM: Avail 134127887 MB, Used 1362 MB; RAM: Avail -16 -> 95846 MB, Used 1482 MB 
+    ' 0:< GUI Resource Usage GDI: Avail 8275, Used 1725, User: Used 679 
+    ' 0:<   System (MB) [Available /  Total ]  [Revit Memory Usage (MB)   ] 
+    ' 0:< RAM Statistics:    95846 /   130257      1482=InUse     1528=Peak  
+    ' 0:< VM  Statistics: 134127887 / 134217727      1362=InUse     1579=Peak  
+    ' 0:< ::794:: Delta VM: Avail +48 -> 134127935 MB, Used -49 -> 1314 MB; RAM: Avail +35 -> 95882 MB, Used -48 -> 1434 MB 
+    ' 0:< GUI Resource Usage GDI: Avail 8275, Used 1725, User: Used 679 
+    ' 0:< SLOG $2f244f79 2026-01-23 13:19:59.735 <Session 
+    ' 0:< compact data space: 329347 blocks, occupying total of 144484032 bytes 
+    ' 0:< freed 330757 blocks 
+  ' 0:< ::794:: Delta VM: Avail +30 -> 134127966 MB, Used +0 -> 1315 MB; RAM: Avail -10 -> 95872 MB, Used -6 -> 1429 MB 
+  ' 0:< GUI Resource Usage GDI: Avail 8318, Used 1682, User: Used 627 
+  ' 0:< Time consumed by OutputLayout(): 1 
+  ' 0:< Hosted window destroyed when docking to other window. 
+    'E 23-Jan-2026 13:19:59.866;   0:< 
+    ' [Jrn.ProfileDialogAnalytics] ProfileDiscipline: 0ProfileRevitVersion: Rvt.Attr.ProfileRevitVersion: 2024.3.40 
+    'E 23-Jan-2026 13:19:59.872;   0:< 
+    ' [Jrn.ProfileDialogAnalytics] ProfileJobRole: Rvt.Attr.ProfileJobRole:  
+    'E 23-Jan-2026 13:19:59.874;   0:< 
+    ' [Jrn.ViewSwitching] ViewSwitchingOrder: 0
+    'E 23-Jan-2026 13:19:59.876;   0:< 
+    ' [Jrn.DockablePaneVisibility] Project Browser , System Browser , Properties Palette , MEP Fabrication Parts , PnID Modeler: 1 , 0 , 1 , 0 , 0
+    'E 23-Jan-2026 13:19:59.890;   0:< 
+    ' [Jrn.CloseRevitMainFrame] 1
+' 1:< ::799:: Delta VM: Avail +9 -> 134127975 MB, Used -14 -> 1301 MB; RAM: Avail +178 -> 96050 MB, Used -8 -> 1421 MB 
+' 1:< GUI Resource Usage GDI: Avail 8407, Used 1593, User: Used 595 
+'C 23-Jan-2026 13:20:01.613;  Revit worker 1 closed cleanly 
+'C 23-Jan-2026 13:20:01.615;  [00008828]QueueMinder stopped 
+'C 23-Jan-2026 13:20:01.615;   1:< logging finished virtualization services  
+'C 23-Jan-2026 13:20:01.615;   1:< logging finished worker services  
+'C 23-Jan-2026 13:20:01.628;   1:< logging erased queues  
+'  1.537062   1:<<<Terminating RevitWorker Processes 
+'C 23-Jan-2026 13:20:01.629;  ->desktop ExitManagedInstance 
+'C 23-Jan-2026 13:20:01.639;  <-desktop ExitManagedInstance 
+'C 23-Jan-2026 13:20:01.639;  ->desktop ExitNativeInstance 
+' 0:< API_SUCCESS { Unregistering Idling event by application Coordination Model Interface (9817e4a5-0333-4323-b69e-781db5f70005). } 
+' 0:< API_SUCCESS { Restoring command id 'ID_EXPORT_IFC' Executed implementation. } 
+' 0:< API_SUCCESS { API unregistering command Export to IAI IFC (Industry Foundation Classes) file format Executed event by application IFC override (e78da2e3-7e89-464c-97cd-2212c8be3fa8). } 
+' 0:< API_SUCCESS { Unregistering SelectionChanged event by application Lightbox UI extension (71d1b3af-7fef-4f64-ae06-30b42cb0b307). } 
+  'E 23-Jan-2026 13:20:01.868;   0:< 
+  ' [Jrn.AddInDynamicUpdate] Rvt.Attr.AddInId: 71d1b3af-7fef-4f64-ae06-30b42cb0b307 Rvt.Attr.AddInName: Lightbox UI extension Rvt.Attr.AddInVersion: 24.3.40.26 Rvt.Attr.NumberOfExecutions: 0 Rvt.Attr.UpdaterId: f9ef42df-ad5e-4f20-870c-d3696daa9259 Rvt.Attr.UpdaterName: Assisted Association Updater Rvt.Attr.VendorDescription: https://knowledge.autodesk.com/search?search=revit&p=REVITPRODUCTS&sort=score Rvt.Attr.VendorId: ADSK 
+' 0:< Third Party Updater 'Lightbox UI extension: Assisted Association Updater' has been unregistered. 
+' 0:< API_SUCCESS { Unregistering DocumentOpened event by application P&ID Modeler (502fe383-2648-4e98-adf8-5e604719dc34). } 
+' 0:< API_SUCCESS { Unregistering DocumentChanged event by application P&ID Modeler (502fe383-2648-4e98-adf8-5e604719dc34). } 
+' 0:< API_SUCCESS { Unregistering DocumentClosed event by application P&ID Modeler (502fe383-2648-4e98-adf8-5e604719dc34). } 
+' 0:< API_SUCCESS { Unregistering DocumentCreated event by application P&ID Modeler (502fe383-2648-4e98-adf8-5e604719dc34). } 
+' 0:< API_SUCCESS { Unregistering FamilyLoadingIntoDocument event by application P&ID Modeler (502fe383-2648-4e98-adf8-5e604719dc34). } 
+' 0:< API_SUCCESS { Unregistering FamilyLoadedIntoDocument event by application P&ID Modeler (502fe383-2648-4e98-adf8-5e604719dc34). } 
+' 0:< API_SUCCESS { Unregistering ApplicationClosing event by application P&ID Modeler (502fe383-2648-4e98-adf8-5e604719dc34). } 
+' 0:< API_SUCCESS { Unregistering TransferringProjectStandards event by application P&ID Modeler (502fe383-2648-4e98-adf8-5e604719dc34). } 
+' 0:< API_SUCCESS { Unregistering TransferredProjectStandards event by application P&ID Modeler (502fe383-2648-4e98-adf8-5e604719dc34). } 
+' 0:< API_SUCCESS { Unregistering DocumentSynchronizingWithCentral event by application P&ID Modeler (502fe383-2648-4e98-adf8-5e604719dc34). } 
+' 0:< API_SUCCESS { Unregistering DocumentSynchronizedWithCentral event by application P&ID Modeler (502fe383-2648-4e98-adf8-5e604719dc34). } 
+' 0:< API_SUCCESS { Unregistering DockableFrameVisibilityChanged event by application P&ID Modeler (502fe383-2648-4e98-adf8-5e604719dc34). } 
+' 0:< API_SUCCESS { Unregistering Idling event by application P&ID Modeler (502fe383-2648-4e98-adf8-5e604719dc34). } 
+  'E 23-Jan-2026 13:20:02.029;   0:< 
+  ' [Jrn.AddInDynamicUpdate] Rvt.Attr.AddInId: 502fe383-2648-4e98-adf8-5e604719dc34 Rvt.Attr.AddInName: P&ID Modeler Rvt.Attr.AddInVersion: 24.3.40.26 Rvt.Attr.NumberOfExecutions: 0 Rvt.Attr.UpdaterId: 7ab43114-025e-4e16-ad71-d91907d42f29 Rvt.Attr.UpdaterName: RevitModelingHost.PipePropertyUpdater Rvt.Attr.VendorDescription: https://knowledge.autodesk.com/search?p=REVITPRODUCTS&search=P%26ID%20Modeler&sort=score&page=1&knowledgeSource=Product%20Documentation Rvt.Attr.VendorId: ADSK 
+' 0:< Third Party Updater 'P&ID Modeler: RevitModelingHost.PipePropertyUpdater' has been unregistered. 
+  'E 23-Jan-2026 13:20:02.031;   0:< 
+  ' [Jrn.AddInDynamicUpdate] Rvt.Attr.AddInId: 502fe383-2648-4e98-adf8-5e604719dc34 Rvt.Attr.AddInName: P&ID Modeler Rvt.Attr.AddInVersion: 24.3.40.26 Rvt.Attr.NumberOfExecutions: 0 Rvt.Attr.UpdaterId: e8163832-9fbb-4b19-9a6a-389b9f061c59 Rvt.Attr.UpdaterName: RevitModelingHost.AccessoryAndEquipmentPropertyUpdater Rvt.Attr.VendorDescription: https://knowledge.autodesk.com/search?p=REVITPRODUCTS&search=P%26ID%20Modeler&sort=score&page=1&knowledgeSource=Product%20Documentation Rvt.Attr.VendorId: ADSK 
+' 0:< Third Party Updater 'P&ID Modeler: RevitModelingHost.AccessoryAndEquipmentPropertyUpdater' has been unregistered. 
+' 0:< API_SUCCESS { Restoring command id 'ID_MEP_PNID_MODELER' CanExecute implementation. } 
+' 0:< API_SUCCESS { API unregistering command P&ID Modeler CanExecute event by application P&ID Modeler (502fe383-2648-4e98-adf8-5e604719dc34). } 
+' 0:< API_SUCCESS { Restoring command id 'ID_MEP_PNID_MODELER' Executed implementation. } 
+' 0:< API_SUCCESS { API unregistering command P&ID Modeler Executed event by application P&ID Modeler (502fe383-2648-4e98-adf8-5e604719dc34). } 
+' 0:< API_SUCCESS { Restoring command id 'ID_MEP_PNID_SETTINGS' CanExecute implementation. } 
+' 0:< API_SUCCESS { API unregistering command P&ID Settings CanExecute event by application P&ID Modeler (502fe383-2648-4e98-adf8-5e604719dc34). } 
+' 0:< API_SUCCESS { Restoring command id 'ID_MEP_PNID_SETTINGS' Executed implementation. } 
+' 0:< API_SUCCESS { API unregistering command P&ID Settings Executed event by application P&ID Modeler (502fe383-2648-4e98-adf8-5e604719dc34). } 
+' 0:< API_SUCCESS { Unregistering DocumentOpened event by application Precast for Revit (3c028904-e50f-4a8c-b059-098de92d92fc). } 
+' 0:< API_SUCCESS { Unregistering DocumentSaving event by application Precast for Revit (3c028904-e50f-4a8c-b059-098de92d92fc). } 
+' 0:< API_SUCCESS { Unregistering DocumentSavingAs event by application Precast for Revit (3c028904-e50f-4a8c-b059-098de92d92fc). } 
+' 0:< API_SUCCESS { Unregistering ViewActivated event by application Revit ProjectBrowser (a27e018a-670c-4b00-9347-5f72cee54e21). } 
+' 0:< API_SUCCESS { Unregistering DockableFrameFocusChanged event by application Revit ProjectBrowser (a27e018a-670c-4b00-9347-5f72cee54e21). } 
+' 0:< API_SUCCESS { Unregistering DocumentChanged event by application Revit ProjectBrowser (a27e018a-670c-4b00-9347-5f72cee54e21). } 
+' 0:< API_SUCCESS { Unregistering ThemeChanged event by application Revit ProjectBrowser (a27e018a-670c-4b00-9347-5f72cee54e21). } 
+  'E 23-Jan-2026 13:20:02.057;   0:< 
+  ' [Jrn.AddInDynamicUpdate] Rvt.Attr.AddInId: 47598b3b-b687-41fb-bfd3-d94ba5aec068 Rvt.Attr.AddInName: Results Explorer Rvt.Attr.AddInVersion: 2024.0.0.5138 Rvt.Attr.NumberOfExecutions: 0 Rvt.Attr.UpdaterId: 372f2ca2-62e6-4815-b096-1b30abb14be5 Rvt.Attr.UpdaterName: Results Explorer loads updater Rvt.Attr.VendorId: adsk 
+' 0:< Third Party Updater 'Results Explorer: Results Explorer loads updater' has been unregistered. 
+' 0:< API_SUCCESS { Unregistering DocumentOpening event by application Revit Application Home (2b185467-5243-4cea-9148-aab8e5523c2a). } 
+' 0:< API_SUCCESS { Unregistering DocumentOpened event by application Revit Application Home (2b185467-5243-4cea-9148-aab8e5523c2a). } 
+' 0:< API_SUCCESS { Unregistering LinkedResourceOpening event by application Revit Application Home (2b185467-5243-4cea-9148-aab8e5523c2a). } 
+' 0:< API_SUCCESS { Unregistering LinkedResourceOpened event by application Revit Application Home (2b185467-5243-4cea-9148-aab8e5523c2a). } 
+' 0:< API_SUCCESS { Unregistering WorksharedOperationProgressChanged event by application Revit Application Home (2b185467-5243-4cea-9148-aab8e5523c2a). } 
+' 0:< API_SUCCESS { Unregistering DocumentOpened event by application Revit Application Home (2b185467-5243-4cea-9148-aab8e5523c2a). } 
+' 0:< API_SUCCESS { Unregistering DocumentSaved event by application Revit Application Home (2b185467-5243-4cea-9148-aab8e5523c2a). } 
+' 0:< API_SUCCESS { Unregistering DocumentSavedAs event by application Revit Application Home (2b185467-5243-4cea-9148-aab8e5523c2a). } 
+' 0:< API_SUCCESS { Unregistering DocumentSynchronizedWithCentral event by application Revit Application Home (2b185467-5243-4cea-9148-aab8e5523c2a). } 
+' 0:< API_SUCCESS { Unregistering ThemeChanged event by application Revit Application Home (2b185467-5243-4cea-9148-aab8e5523c2a). } 
+' 0:< API_SUCCESS { Unregistering UserInterfaceOptionsChanged event by application Revit Application Home (2b185467-5243-4cea-9148-aab8e5523c2a). } 
+' 0:< API_SUCCESS { Unregistering RecentPinStatusChanged event by application Revit Application Home (2b185467-5243-4cea-9148-aab8e5523c2a). } 
+' 0:< API_SUCCESS { Unregistering ProjectVisibilityOptionsChanged event by application Revit Application Home (2b185467-5243-4cea-9148-aab8e5523c2a). } 
+' 0:< API_SUCCESS { Restoring command id 'ID_MEP_SPACE_NAMING_UTILITY' CanExecute implementation. } 
+' 0:< API_SUCCESS { API unregistering command Space Naming Utility CanExecute event by application Space Naming Utility Application (02663093-563b-4e2f-b5be-5b75beb2e313). } 
+' 0:< API_SUCCESS { Restoring command id 'ID_MEP_SPACE_NAMING_UTILITY' Executed implementation. } 
+' 0:< API_SUCCESS { API unregistering command Space Naming Utility Executed event by application Space Naming Utility Application (02663093-563b-4e2f-b5be-5b75beb2e313). } 
+' 0:< API_SUCCESS { Unregistering Idling event by application Steel Connections UI extension (16cd5a3b-d481-4fb3-8355-848d4933e850). } 
+' 0:< API_SUCCESS { Unregistering ViewActivated event by application Steel Connections UI extension (16cd5a3b-d481-4fb3-8355-848d4933e850). } 
+' 0:< API_SUCCESS { Unregistering ViewActivated event by application FabPartBrowserApplication (ee72acb7-2d70-484e-9cdf-0f7006b1183e). } 
+' 0:< API_SUCCESS { Unregistering DocumentClosing event by application FabPartBrowserApplication (ee72acb7-2d70-484e-9cdf-0f7006b1183e). } 
+' 0:< API_SUCCESS { Unregistering DocumentClosed event by application FabPartBrowserApplication (ee72acb7-2d70-484e-9cdf-0f7006b1183e). } 
+' 0:< API_SUCCESS { Unregistering DocumentChanged event by application FabPartBrowserApplication (ee72acb7-2d70-484e-9cdf-0f7006b1183e). } 
+' 0:< ::803:: Delta VM: Avail -12 -> 134127964 MB, Used +0 -> 1302 MB; RAM: Avail -2 -> 96049 MB, Used 1421 MB 
+' 0:< GUI Resource Usage GDI: Avail 8407, Used 1593, User: Used 595 
+' 0:< API_SUCCESS { Unregistering DockableFrameVisibilityChanged event by application FabPartBrowserApplication (ee72acb7-2d70-484e-9cdf-0f7006b1183e). } 
+' 0:< API_SUCCESS { Unregistering Idling event by application FabPartBrowserApplication (ee72acb7-2d70-484e-9cdf-0f7006b1183e). } 
+' 0:< API_SUCCESS { Registering FabricationPartBrowserChanged event by application FabPartBrowserApplication (ee72acb7-2d70-484e-9cdf-0f7006b1183e). } 
+' 0:< API_SUCCESS { Restoring command id 'ID_MEP_FABRICATION_SETTINGS' CanExecute implementation. } 
+' 0:< API_SUCCESS { API unregistering command Fabrication Settings CanExecute event by application FabPartBrowserApplication (ee72acb7-2d70-484e-9cdf-0f7006b1183e). } 
+' 0:< API_SUCCESS { Restoring command id 'ID_MEP_FABRICATION_SETTINGS' Executed implementation. } 
+' 0:< API_SUCCESS { API unregistering command Fabrication Settings Executed event by application FabPartBrowserApplication (ee72acb7-2d70-484e-9cdf-0f7006b1183e). } 
+' 0:< API_SUCCESS { Restoring command id 'ID_FABRICATION_PART_SHOW_SERVICE_IN_PART_BROWSER' CanExecute implementation. } 
+' 0:< API_SUCCESS { API unregistering command Show Service in Part Browser
+'Show Service in Part Browser
+'Show Service in Part Browser CanExecute event by application FabPartBrowserApplication (ee72acb7-2d70-484e-9cdf-0f7006b1183e). } 
+  ' 0:< ::803:: Delta VM: Avail +13 -> 134127978 MB, Used -1 -> 1301 MB; RAM: Avail +65 -> 96114 MB, Used 1421 MB 
+  ' 0:< GUI Resource Usage GDI: Avail 8407, Used 1593, User: Used 587 
+  'E 23-Jan-2026 13:20:02.329;   0:< 
+  ' [Jrn.AddInDynamicUpdate] Rvt.Attr.AddInId: 51e28eba-853f-46e6-b233-2fd7547383cb Rvt.Attr.NumberOfExecutions: 0 Rvt.Attr.UpdaterId: 69c641d9-c838-42bb-983f-d30b8d01d4bb Rvt.Attr.UpdaterName: Bending Details 
+' 0:< Third Party Updater 'Bending Details DB: Bending Details' has been unregistered. 
+' 0:< API_SUCCESS { Unregistering DocumentOpened event by application Coordination Model (c9463641-1c02-431c-9502-4ad0c91de1ce). } 
+' 0:< API_SUCCESS { Unregistering DocumentCreated event by application Coordination Model (c9463641-1c02-431c-9502-4ad0c91de1ce). } 
+' 0:< API_SUCCESS { Unregistering DocumentChanged event by application Coordination Model (c9463641-1c02-431c-9502-4ad0c91de1ce). } 
+' 0:< API_SUCCESS { Unregistering DocumentClosing event by application Coordination Model (c9463641-1c02-431c-9502-4ad0c91de1ce). } 
+' 0:< API_SUCCESS { Unregistering DocumentSynchronizingWithCentral event by application Coordination Model (c9463641-1c02-431c-9502-4ad0c91de1ce). } 
+' 0:< API_SUCCESS { Unregistering DocumentSynchronizedWithCentral event by application Coordination Model (c9463641-1c02-431c-9502-4ad0c91de1ce). } 
+' 0:< API_SUCCESS { Unregistering DocumentSaving event by application Coordination Model (c9463641-1c02-431c-9502-4ad0c91de1ce). } 
+' 0:< API_SUCCESS { Unregistering DocumentSavingAs event by application Coordination Model (c9463641-1c02-431c-9502-4ad0c91de1ce). } 
+' 0:< API_SUCCESS { Unregistering DocumentSaved event by application Coordination Model (c9463641-1c02-431c-9502-4ad0c91de1ce). } 
+' 0:< API_SUCCESS { Unregistering DocumentSavedAs event by application Coordination Model (c9463641-1c02-431c-9502-4ad0c91de1ce). } 
+' 0:< API_SUCCESS { Unregistering DocumentSynchronizedWithCentral event by application Lightbox DB extension (f8ddcb9b-9260-4b21-9f09-ea4622763b83). } 
+' 0:< API_SUCCESS { Unregistering DocumentSynchronizingWithCentral event by application Lightbox DB extension (f8ddcb9b-9260-4b21-9f09-ea4622763b83). } 
+' 0:< API_SUCCESS { Unregistering DocumentReloadedLatest event by application Lightbox DB extension (f8ddcb9b-9260-4b21-9f09-ea4622763b83). } 
+' 0:< API_SUCCESS { Unregistering DocumentReloadingLatest event by application Lightbox DB extension (f8ddcb9b-9260-4b21-9f09-ea4622763b83). } 
+' 0:< API_SUCCESS { Unregistering ExternalDataTypeServerFailureResolutionExecuting event by application Lightbox DB extension (f8ddcb9b-9260-4b21-9f09-ea4622763b83). } 
+' 0:< API_SUCCESS { Unregistering ExternalDataInstanceRemovingFromDocument event by application Lightbox DB extension (f8ddcb9b-9260-4b21-9f09-ea4622763b83). } 
+' 0:< ::804:: Delta VM: Avail 134127978 MB, Used 1301 MB; RAM: Avail +10 -> 96125 MB, Used 1421 MB 
+' 0:< GUI Resource Usage GDI: Avail 8407, Used 1593, User: Used 587 
+' 0:< API_SUCCESS { Unregistering ExternalDataInstanceAddedIntoDocument event by application Lightbox DB extension (f8ddcb9b-9260-4b21-9f09-ea4622763b83). } 
+' 0:< API_SUCCESS { Unregistering DocumentChanged event by application Lightbox DB extension (f8ddcb9b-9260-4b21-9f09-ea4622763b83). } 
+' 0:< API_SUCCESS { Unregistering DocumentClosing event by application Lightbox DB extension (f8ddcb9b-9260-4b21-9f09-ea4622763b83). } 
+' 0:< API_SUCCESS { Unregistering DocumentOpened event by application Lightbox DB extension (f8ddcb9b-9260-4b21-9f09-ea4622763b83). } 
+  'E 23-Jan-2026 13:20:02.352;   0:< 
+  ' [Jrn.AddInDynamicUpdate] Rvt.Attr.AddInId: f8ddcb9b-9260-4b21-9f09-ea4622763b83 Rvt.Attr.NumberOfExecutions: 3 Rvt.Attr.UpdaterId: c788ec8b-59af-482e-a20a-08274fbbd20d Rvt.Attr.UpdaterName: Lightbox associations updater 
+' 0:< Third Party Updater 'Lightbox DB extension: Lightbox associations updater' has been unregistered. 
+  'E 23-Jan-2026 13:20:02.352;   0:< 
+  ' [Jrn.AddInDynamicUpdate] Rvt.Attr.AddInId: 4c61df08-b0c3-4c59-aee1-f67bd03df6f8 Rvt.Attr.NumberOfExecutions: 0 Rvt.Attr.UpdaterId: ceba05a7-9806-4b08-b646-f91abece48d3 Rvt.Attr.UpdaterName: Results Builder Dynamic Updater 
+' 0:< Third Party Updater 'Results Builder Application: Results Builder Dynamic Updater' has been unregistered. 
+' 0:< API_SUCCESS { Unregistering DocumentChanged event by application Results Builder Application (4c61df08-b0c3-4c59-aee1-f67bd03df6f8). } 
+' 0:< API_SUCCESS { Unregistering DocumentClosed event by application Results Builder Application (4c61df08-b0c3-4c59-aee1-f67bd03df6f8). } 
+' 0:< API_SUCCESS { Unregistering DocumentClosing event by application Results Builder Application (4c61df08-b0c3-4c59-aee1-f67bd03df6f8). } 
+' 0:< API_SUCCESS { Unregistering DocumentOpened event by application Results Builder Application (4c61df08-b0c3-4c59-aee1-f67bd03df6f8). } 
+' 0:< API_SUCCESS { Unregistering DocumentCreated event by application Results Builder Application (4c61df08-b0c3-4c59-aee1-f67bd03df6f8). } 
+  'E 23-Jan-2026 13:20:02.352;   0:< 
+  ' [Jrn.AddInDynamicUpdate] Rvt.Attr.AddInId: 9f2e732a-289e-4185-b701-15d33c31653f Rvt.Attr.NumberOfExecutions: 0 Rvt.Attr.UpdaterId: 6eaeafde-25a1-4167-8fc0-855c51264da1 Rvt.Attr.UpdaterName: Steel Fabrication Updater 
+' 0:< Third Party Updater 'Steel Connections DB extension: Steel Fabrication Updater' has been unregistered. 
+' 0:< ::807:: Delta VM: Avail 134127978 MB, Used 1301 MB; RAM: Avail -12 -> 96113 MB, Used 1421 MB 
+' 0:< GUI Resource Usage GDI: Avail 8407, Used 1593, User: Used 587 
+' 0:< API_SUCCESS { Unregistering DocumentCreating event by application Steel Connections DB extension (9f2e732a-289e-4185-b701-15d33c31653f). } 
+' 0:< API_SUCCESS { Unregistering DocumentCreated event by application Steel Connections DB extension (9f2e732a-289e-4185-b701-15d33c31653f). } 
+' 0:< API_SUCCESS { Unregistering DocumentOpening event by application Steel Connections DB extension (9f2e732a-289e-4185-b701-15d33c31653f). } 
+' 0:< API_SUCCESS { Unregistering DocumentOpened event by application Steel Connections DB extension (9f2e732a-289e-4185-b701-15d33c31653f). } 
+' 0:< API_SUCCESS { Unregistering DocumentClosing event by application Steel Connections DB extension (9f2e732a-289e-4185-b701-15d33c31653f). } 
+' 0:< API_SUCCESS { Unregistering DocumentSaving event by application Steel Connections DB extension (9f2e732a-289e-4185-b701-15d33c31653f). } 
+' 0:< API_SUCCESS { Unregistering DocumentSavingAs event by application Steel Connections DB extension (9f2e732a-289e-4185-b701-15d33c31653f). } 
+' 0:< API_SUCCESS { Unregistering DocumentSaved event by application Steel Connections DB extension (9f2e732a-289e-4185-b701-15d33c31653f). } 
+' 0:< API_SUCCESS { Unregistering DocumentSavedAs event by application Steel Connections DB extension (9f2e732a-289e-4185-b701-15d33c31653f). } 
+' 0:< API_SUCCESS { Unregistering DocumentChanged event by application Steel Connections DB extension (9f2e732a-289e-4185-b701-15d33c31653f). } 
+' 0:< API_SUCCESS { Unregistering LinkedResourceOpened event by application Steel Connections DB extension (9f2e732a-289e-4185-b701-15d33c31653f). } 
+' 0:< API_SUCCESS { Unregistering LinkedResourceOpening event by application Steel Connections DB extension (9f2e732a-289e-4185-b701-15d33c31653f). } 
+' 0:< API_SUCCESS { Unregistering DocumentSynchronizingWithCentral event by application Steel Connections DB extension (9f2e732a-289e-4185-b701-15d33c31653f). } 
+' 0:< API_SUCCESS { Unregistering DocumentSynchronizedWithCentral event by application Steel Connections DB extension (9f2e732a-289e-4185-b701-15d33c31653f). } 
+' 0:< Forcibly unregistering Updater with id:51c0be9b-07a8-443a-be8c-21db815b17e7 
+' 0:< Forcibly unregistering Updater with id:649e613c-2d39-4a7b-9720-662750f5243e 
+' 0:< Forcibly unregistering Updater with id:9e4e2572-dca3-4f2e-9ea6-77c59d4eae55 
+' 0:< Forcibly unregistering Updater with id:c94154ad-4bbe-4682-a816-73cc79e2a9d0 
+' 0:< Forcibly unregistering Updater with id:d7256fab-f630-4a32-aef3-eb59a0ee63d9 
+' 0:< Forcibly unregistering Updater with id:5a37bca6-58d6-44b0-bf9a-5da8ee33a464 
+' 0:< Forcibly removing all update triggers for all Updaters 
+  'E 23-Jan-2026 13:20:02.382;   0:< 
+  ' [Jrn.ExternalServerExecution] Rvt.Attr.AddInId: e42ff806-491d-4b17-9afb-ea051d5ebb76 Rvt.Attr.ExternalServerExecutionCount: 6 Rvt.Attr.ExternalServerId: bd4f0f53-394a-4468-b37e-1e7949013382 Rvt.Attr.ExternalServerName: Revit Default DB Server 
+  'E 23-Jan-2026 13:20:02.382;   0:< 
+  ' [Jrn.ExternalServerExecution] Rvt.Attr.AddInId: 4c61df08-b0c3-4c59-aee1-f67bd03df6f8 Rvt.Attr.ExternalServerExecutionCount: 29 Rvt.Attr.ExternalServerId: 6661389c-2324-4298-a8e6-f84c57648d1c Rvt.Attr.ExternalServerName: ResultsChangedServer 
+' 0:< Unregistering all external services. 
+  ' 0:< ::809:: Delta VM: Avail +183 -> 134128161 MB, Used -144 -> 1158 MB; RAM: Avail +17 -> 96131 MB, Used -17 -> 1404 MB 
+  ' 0:< GUI Resource Usage GDI: Avail 8409, Used 1591, User: Used 578 
+  'E 23-Jan-2026 13:20:02.785;   0:< 
+  ' [Jrn.SessionOptions] Rvt.Attr.ACMSettings.ACMLocalExecutableLocation:  Rvt.Attr.ACMSettings.ACMNetworkAddress: 127.0.0.1 Rvt.Attr.ACMSettings.ACMNetworkPort: 14931 Rvt.Attr.ACMSettings.ACMOnNetwork: 1 Rvt.Attr.AddInJournaling.Enable: 1 Rvt.Attr.AddInJournaling.PlaybackInterval: 200 Rvt.Attr.AddInJournaling.Remoting: 0 Rvt.Attr.AlignmentStationLabelSet.Interval_Imperial:  Rvt.Attr.AlignmentStationLabelSet.Interval_Metric:  Rvt.Attr.AlignmentStationLabelSet.Interval_UsSurvey:  Rvt.Attr.AlignmentStationLabelSet.Offset_Imperial:  Rvt.Attr.AlignmentStationLabelSet.Offset_Metric:  Rvt.Attr.AlignmentStationLabelSet.Offset_UsSurvey:  Rvt.Attr.Analytical.AnalyticalToleranceChangeWarning: 0 Rvt.Attr.Analytical.DontUpdateAnalyticalSupportInfo: 0 Rvt.Attr.API.DisableUserAddinsAndMacros: 0 Rvt.Attr.AppFrame.FollowSystemColorTheme: 1 Rvt.Attr.AppFrame.Theme: 0 Rvt.Attr.AutoCam.2DZoomDirection: 1 Rvt.Attr.AutoCam.AlwaysShowPinnedWheelOnStartup: 0 Rvt.Attr.AutoCam.BigSteeringWheelOpacity: 1 Rvt.Attr.AutoCam.BigSteeringWheelSize: 1 Rvt.Attr.AutoCam.HasShownSteeringWheelFirstContact: 0 Rvt.Attr.AutoCam.MiniSteeringWheelOpacity: 1 Rvt.Attr.AutoCam.MiniSteeringWheelSize: 1 Rvt.Attr.AutoCam.NavBarActiveSpaceMouseCommand: 0 Rvt.Attr.AutoCam.NavBarActiveWheel: 0 Rvt.Attr.AutoCam.NavBarActiveZoom: 0 Rvt.Attr.AutoCam.NavBarFirstPersonModeButtonVisible: 1 Rvt.Attr.AutoCam.NavBarLocation: 4 Rvt.Attr.AutoCam.NavBarOffsetX: 0 Rvt.Attr.AutoCam.NavBarOffsetY: 0 Rvt.Attr.AutoCam.NavBarOpacity: 2 Rvt.Attr.AutoCam.NavBarPanActiveViewButtonVisible: 1 Rvt.Attr.AutoCam.NavBarSMButtonVisible: 1 Rvt.Attr.AutoCam.NavBarSpaceMouseButtonVisible: 1 Rvt.Attr.AutoCam.NavBarSWButtonVisible: 1 Rvt.Attr.AutoCam.NavBarVCButtonVisible: 1 Rvt.Attr.AutoCam.NavBarVisible: 1 Rvt.Attr.AutoCam.NavBarZoomButtonVisible: 1 Rvt.Attr.AutoCam.SaveRewindThumbnails: 1 Rvt.Attr.AutoCam.ShowViewCube: 1 Rvt.Attr.AutoCam.ShowViewCubeOnlyInCurrentView: 0 Rvt.Attr.AutoCam.SpaceMouseEnableRotation: 1 Rvt.Attr.AutoCam.SpaceMouseEnableTranslation: 1 Rvt.Attr.AutoCam.SpaceMouseKeepSceneUpright: 1 Rvt.Attr.AutoCam.SpaceMouseMode: 0 Rvt.Attr.AutoCam.SpaceMouseSelectionSensitivity: 1 Rvt.Attr.AutoCam.SpaceMouseSensitivity: 75 Rvt.Attr.AutoCam.SteeringWheelConstrainWalkAngleToGround: 1 Rvt.Attr.AutoCam.SteeringWheelEnableIncrementalZoomIn: 0 Rvt.Attr.AutoCam.SteeringWheelInvertVerticalAxis: 0 Rvt.Attr.AutoCam.SteeringWheelKeepSceneUpright: 1 Rvt.Attr.AutoCam.SteeringWheelSelectionSensitivity: 1 Rvt.Attr.AutoCam.SteeringWheelShowHUDMessages: 1 Rvt.Attr.AutoCam.SteeringWheelShowToolCursorText: 1 Rvt.Attr.AutoCam.SteeringWheelShowTooltips: 1 Rvt.Attr.AutoCam.SteeringWheelSpeedFactor: 30 Rvt.Attr.AutoCam.ViewCubeFitToView: 1 Rvt.Attr.AutoCam.ViewCubeKeepSceneUpright: 1 Rvt.Attr.AutoCam.ViewCubeOpacity: 2 Rvt.Attr.AutoCam.ViewCubePosition: 0 Rvt.Attr.AutoCam.ViewCubeSize: 4 Rvt.Attr.AutoCam.ViewCubeSnapToClosestView: 1 Rvt.Attr.AutoCam.ViewCubeUseAnimatedTransition: 1 Rvt.Attr.Autojoin.ForceAutojoinWallFoundation: 0 Rvt.Attr.Autojoin.UseLegacyConcreteJoins: 0 Rvt.Attr.Backups.DisableSkipBackupFolderCreationWhenLoadingLink: 0 Rvt.Attr.Backups.JournalShelfCapacity: 10 Rvt.Attr.Backups.JournalShelfLife: 10 Rvt.Attr.Backups.SaveReminderMinutes: 30 Rvt.Attr.Backups.SaveToCentralReminderMinutes: 30 Rvt.Attr.Category.EnableNewRailingCategory: 0 Rvt.Attr.CERServer.Server:  Rvt.Attr.ChainOptions.Lines: 1 Rvt.Attr.CloudModel.ShowProjectsAllVersions: 0 Rvt.Attr.CloudModelCache.CacheLocation:  Rvt.Attr.Colors.BackgroundColorDark: 3352866 Rvt.Attr.Colors.BackgroundColorLight: 16777215 Rvt.Attr.Colors.CanvasTheme: 0 Rvt.Attr.Colors.CustomColor1:  Rvt.Attr.Colors.CustomColor10:  Rvt.Attr.Colors.CustomColor11:  Rvt.Attr.Colors.CustomColor12:  Rvt.Attr.Colors.CustomColor13:  Rvt.Attr.Colors.CustomColor14:  Rvt.Attr.Colors.CustomColor15:  Rvt.Attr.Colors.CustomColor16:  Rvt.Attr.Colors.CustomColor2:  Rvt.Attr.Colors.CustomColor3:  Rvt.Attr.Colors.CustomColor4:  Rvt.Attr.Colors.CustomColor5:  Rvt.Attr.Colors.CustomColor6:  Rvt.Attr.Colors.CustomColor7:  Rvt.Attr.Colors.CustomColor8:  Rvt.Attr.Colors.CustomColor9:  Rvt.Attr.Colors.EditingColorDark: 6422307 Rvt.Attr.Colors.EditingColorLight: 4259712 Rvt.Attr.Colors.ErrorColorDark: 4830715 Rvt.Attr.Colors.ErrorColorLight: 33023 Rvt.Attr.Colors.HiliteColorDark: 15461192 Rvt.Attr.Colors.HiliteColorLight: 12401408 Rvt.Attr.Colors.LinkColorDark: 16749859 Rvt.Attr.Colors.LinkColorLight: 12401408 Rvt.Attr.Colors.PreHiliteColorDark: 16299527 Rvt.Attr.Colors.PreHiliteColorLight: 12401408 Rvt.Attr.Colors.SemiTransparentDark: 1 Rvt.Attr.Colors.SemiTransparentLight: 1 Rvt.Attr.Colors.TemporaryColorDark: 14638541 Rvt.Attr.Colors.TemporaryColorLight: 16776960 Rvt.Attr.CommonDialog.FileOpenView: 3 Rvt.Attr.CommonDialog.FileSaveView: 3 Rvt.Attr.Construction.AllowDivisionRule: 0 Rvt.Attr.Construction.WJDR_NotReadyForProduction: 0 Rvt.Attr.Diagnostics.DumpStatsOnTransactionEnd: 0 Rvt.Attr.DirectoriesENU.DataLibraryLocations: Imperial Library=C:\ProgramData\Autodesk\RVT 2024\Libraries\English-Imperial\US\, Metric Library=C:\ProgramData\Autodesk\RVT 2024\Libraries\English\US\ Rvt.Attr.DirectoriesENU.DefaultTemplate: Imperial Multi-discipline=C:\ProgramData\Autodesk\RVT 2024\Templates\English-Imperial\Default-Multi-discipline.rte, Metric Multi-discipline=C:\ProgramData\Autodesk\RVT 2024\Templates\English\Default-Multi-Discipline_Metric.rte Rvt.Attr.DirectoriesENU.FamilyTemplatePath: C:\ProgramData\Autodesk\RVT 2024\Family Templates\ Rvt.Attr.DirectoriesENU.SystemsAnalysisWorkflows:  Rvt.Attr.Export.ExportDwfNumberOfWorkers: 2 Rvt.Attr.Export.ExportDwfObjectData: 1 Rvt.Attr.Export.ExportDwfRoomData: 0 Rvt.Attr.Export.UseVersion2012DGN: 0 Rvt.Attr.File.PurgeTaintedElements: 0 Rvt.Attr.File.ReadAllElements: 0 Rvt.Attr.GraphicalWarnings.ShowGraphicalOpenEndsAreaBasedLoadBoundaryDisconnects: 1 Rvt.Attr.GraphicalWarnings.ShowGraphicalWarningCTCDisconnects: 0 Rvt.Attr.GraphicalWarnings.ShowGraphicalWarningDuctDisconnects: 0 Rvt.Attr.GraphicalWarnings.ShowGraphicalWarningElectricalDisconnects: 0 Rvt.Attr.GraphicalWarnings.ShowGraphicalWarningHangerDisconnects: 0 Rvt.Attr.GraphicalWarnings.ShowGraphicalWarningPipeDisconnects: 0 Rvt.Attr.Graphics.AccelerateViewDisplayViaMultiCore: 0 Rvt.Attr.Graphics.AllowNavigationDuringRedraw: 1 Rvt.Attr.Graphics.Antialiasing: 1 Rvt.Attr.Graphics.AntialiasingOptions: 1 Rvt.Attr.Graphics.FabricationPartTooltipWindowEnabled: -1 Rvt.Attr.Graphics.FacetCacheSize: -1 Rvt.Attr.Graphics.FreezeScheduleHeader: 0 Rvt.Attr.Graphics.HiddenSlabEdge: Itself Rvt.Attr.Graphics.InvertBackground: 0 Rvt.Attr.Graphics.MaterialLibraryVersion:  Rvt.Attr.Graphics.OptimizedViewNavigation: 1 Rvt.Attr.Graphics.RebarPropagationTooltipWindowEnabled: -1 Rvt.Attr.Graphics.RebarTooltipWindowEnabled: -1 Rvt.Attr.Graphics.ShowAECLibrary: 1 Rvt.Attr.Graphics.ShowMaterialEditor: 1 Rvt.Attr.Graphics.TempDimFontSizeInPoints: 8 Rvt.Attr.Graphics.TempDimTextBackground: 0 Rvt.Attr.Graphics.TempTextBkTransparency: 128 Rvt.Attr.Graphics.ThinLinesEnabled: 0 Rvt.Attr.Graphics.UseGpuOcclusionCulling: 1 Rvt.Attr.Graphics.UseGraphicsHardware: 1 Rvt.Attr.Graphics.UseTempTextBkTransparent: 0 Rvt.Attr.ImportIFC.LinkProcessor:  Rvt.Attr.InstallationSettings.Usage: All Rvt.Attr.Interoperability.ODISInstallerDirectory:  Rvt.Attr.Interoperability.RealDWGInstalledLocation:  Rvt.Attr.Interoperability.RealDWGInstallerDirectory:  Rvt.Attr.Language.Last: 0 Rvt.Attr.Language.Select: ENU Rvt.Attr.Macro.AppSecurity: 1 Rvt.Attr.Macro.DocSecurity: 1 Rvt.Attr.Macro.UIDocSecurity: 1 Rvt.Attr.Manage Links.CADFormats: 0 Rvt.Attr.Manage Links.CADFormatsSortDirection: 0 Rvt.Attr.Manage Links.DWFMarkups: 0 Rvt.Attr.Manage Links.DWFMarkupsSortDirection: 0 Rvt.Attr.Manage Links.RevitLinks: 0 Rvt.Attr.Manage Links.RevitLinksSortDirection: 0 Rvt.Attr.Manage Links.TOPOGRAPHY: 0 Rvt.Attr.Manage Links.TOPOGRAPHYSortDirection: 0 Rvt.Attr.MEPFabrication.IndicatorAwayColor: 65280 Rvt.Attr.MEPFabrication.IndicatorPlanColor: 255 Rvt.Attr.MEPFabrication.IndicatorTowardsColor: 16711680 Rvt.Attr.MEPGraphics.MEPAdjacencyMapLimit: 4096 Rvt.Attr.Messages.AdlmCheckoutBefore: 0 Rvt.Attr.Messages.DBarDockToTop: 1 Rvt.Attr.Messages.SuppressAssistedAssociationDialog: 0 Rvt.Attr.Messages.SuppressCellTextInPanelScheduleCanBeLostMessage: 0 Rvt.Attr.Messages.SuppressConfirmLevelRename: 0 Rvt.Attr.Messages.SuppressConfirmPlanViewRename: 0 Rvt.Attr.Messages.SuppressConfirmSwapViewAndReplace: 0 Rvt.Attr.Messages.SuppressForceRasterPrintingWarning: 0 Rvt.Attr.Messages.SuppressHardwareProblemsWarning: 0 Rvt.Attr.Messages.SuppressLoadBeamTagFamilyInstructions: 0 Rvt.Attr.Messages.SuppressNewSpotElevationTypeInstructions: 0 Rvt.Attr.Messages.SuppressNonWysiwygWarning: 0 Rvt.Attr.Messages.SuppressNoRenderingWarning: 0 Rvt.Attr.Messages.SuppressOpenMultipleViewsMessage: 0 Rvt.Attr.Messages.SuppressRemoveMultipleViewsFromSheetMessage: 0 Rvt.Attr.Messages.SuppressRotateSharedWarning: 0 Rvt.Attr.Messages.SuppressShowButtonMessage: 0 Rvt.Attr.Messages.SuppressShowMassWarning: 0 Rvt.Attr.Messages.SuppressTextInPanelScheduleCanBeLostMessage: 0 Rvt.Attr.Messages.SuppressWarningSound: 0 Rvt.Attr.Misc.AdditionalBrowserOptions:  Rvt.Attr.Misc.AreaBoundary_ApplyAreaRules: 1 Rvt.Attr.Misc.BrowserLogSeverity: 99 Rvt.Attr.Misc.DesktopConnectorVerboseLogging: 0 Rvt.Attr.Misc.DisableAddInSecurity: 0 Rvt.Attr.Misc.DisableBackgroundProcesses: 0 Rvt.Attr.Misc.DisableCaBaGGe_3: 0 Rvt.Attr.Misc.DisableCefSharpInit: 0 Rvt.Attr.Misc.DisableFlowCalculationsForMEPFabrication: 0 Rvt.Attr.Misc.DisableMyInsights: 0 Rvt.Attr.Misc.DisableNetworkFlowCalculationsForDuctwork: 0 Rvt.Attr.Misc.DisableProductFeedback: 0 Rvt.Attr.Misc.DisconnectMEPElementsWhenDemolished: 0 Rvt.Attr.Misc.DoDEnvironment_DisableCloud: 0 Rvt.Attr.Misc.EnableBIM360InOpenFileDialog: 0 Rvt.Attr.Misc.EnableConceptualMassesAnalysisMode: 0 Rvt.Attr.Misc.EnableDatasmithInitializationOnStartup: 0 Rvt.Attr.Misc.EnableDatasmithRevitExporterVerboseLogging: 0 Rvt.Attr.Misc.EnableHeatingAndCoolingLoads: 0 Rvt.Attr.Misc.EnableMFCTreeView: 0 Rvt.Attr.Misc.EnableNetworkFlowCalculationsForFireProtection: 0 Rvt.Attr.Misc.EnableParametersService: 1 Rvt.Attr.Misc.EnableWeatherInLocation: 0 Rvt.Attr.Misc.FamilyContentProtectionAccessKey:  Rvt.Attr.Misc.IgnoreDeletionOfRequiredSettings: 0 Rvt.Attr.Misc.IgnoreGPUCompatibilityCheckForDatasmithRevitExporterInitialization: 0 Rvt.Attr.Misc.MaxNumberOfInterprocessMessages: 600 Rvt.Attr.Misc.MonitorElementGRepStatus: 0 Rvt.Attr.Misc.PrintBackgroundRect: 0 Rvt.Attr.Misc.RebarLimit: 0 Rvt.Attr.Misc.ShowLoadAutodeskFamily: 1 Rvt.Attr.Misc.SimplifiedGRepThreshold: 1 Rvt.Attr.Misc.SkipDatasmithRevitExporterInitialization: 0 Rvt.Attr.Misc.SSOServer: 0 Rvt.Attr.Misc.UseUDAHomeAsDefault: 1 Rvt.Attr.Modify.Align_Lock: 0 Rvt.Attr.Modify.Align_Multiple: 0 Rvt.Attr.Modify.Align_PatternPreference: 0 Rvt.Attr.Modify.Align_WallsPreference: 0 Rvt.Attr.Modify.Array_Constrain: 0 Rvt.Attr.Modify.Array_GroupAndAssociate: 1 Rvt.Attr.Modify.Array_Linear: 1 Rvt.Attr.Modify.Array_MoveTo2nd: 1 Rvt.Attr.Modify.Family_PlaceOrRehostMode: 0 Rvt.Attr.Modify.Mirror_Copy: 1 Rvt.Attr.Modify.MoveCopy_Constrain: 0 Rvt.Attr.Modify.MoveCopy_Disjoin: 0 Rvt.Attr.Modify.MoveCopy_Multiple: 1 Rvt.Attr.Modify.Offset_Copy: 1 Rvt.Attr.Modify.Offset_GraphicsMode: 0 Rvt.Attr.Modify.Offset_Offset_Imperial: 1 Rvt.Attr.Modify.Offset_Offset_Metric: 3.28083989501312 Rvt.Attr.Modify.Rotate_Copy: 0 Rvt.Attr.Modify.Rotate_Disjoin: 0 Rvt.Attr.Modify.Scale_GraphicsMode: 1 Rvt.Attr.Modify.Scale_Scale: 2 Rvt.Attr.Modify.Split_DeleteInnerSeg: 0 Rvt.Attr.Modify.Split_JointGap_Imperial: 0.0833333333333333 Rvt.Attr.Modify.Split_JointGap_Metric: 0.0820209973753281 Rvt.Attr.PerformanceOptimizations.DontUseMultiThreadingDuringTraversal: Default Rvt.Attr.PerformanceOptimizations.ParallelSilhouettesProcessing: Default Rvt.Attr.PerformanceOptimizations.ParallelWallJoins: Default Rvt.Attr.Preview.Name: Front Rvt.Attr.Preview.ViewType: 4 Rvt.Attr.Project Browser.Show View Placement On Sheet Status Icons: 1 Rvt.Attr.Prompts.TooltipAssistance: 50 Rvt.Attr.RebarConstraints.RebarAdaptConstraintsEnabled: 0 Rvt.Attr.RebarConstraints.RebarConstrainedPlacementEnabled: 0 Rvt.Attr.SamplesENU.DefaultSamples:  Rvt.Attr.Selection.ActivateControlsAndDimensionsOnMultiSelect: 0 Rvt.Attr.Selection.AllowFaceSelection: 0 Rvt.Attr.Selection.AllowLinkSelection: 1 Rvt.Attr.Selection.AllowPinnedSelection: 1 Rvt.Attr.Selection.AllowPressAndDrag: 1 Rvt.Attr.Selection.AllowUnderlaySelection: 0 Rvt.Attr.SlabShapeUI.ElevationBaseType: 1 Rvt.Attr.SlabShapeUI.PointBaseType: 0 Rvt.Attr.Snapping.AngleSnapIncrements: 90.00° ; 45.00° ; 15.00° ; 5.00° ; 1.00° ; Rvt.Attr.Snapping.EnableAngularIncrementSnaps: 1 Rvt.Attr.Snapping.EnableLinearIncrementSnaps: 1 Rvt.Attr.Snapping.ImperialSnapIncrements: 4' ; 0'  6" ; 0'  1" ; 0'  0 1/4" ; Rvt.Attr.Snapping.MetricSnapIncrements: 1000 ; 100 ; 20 ; 5 ; Rvt.Attr.Snapping.SnapsOff: 0 Rvt.Attr.Snapping.SnapToCenters: 1 Rvt.Attr.Snapping.SnapToCoordinationModels: 1 Rvt.Attr.Snapping.SnapToEndPoints: 1 Rvt.Attr.Snapping.SnapToIntersections: 1 Rvt.Attr.Snapping.SnapToMiddle: 1 Rvt.Attr.Snapping.SnapToNearest: 1 Rvt.Attr.Snapping.SnapToPerpendicular: 1 Rvt.Attr.Snapping.SnapToPointClouds: 1 Rvt.Attr.Snapping.SnapToPoints: 1 Rvt.Attr.Snapping.SnapToQuadrants: 1 Rvt.Attr.Snapping.SnapToRemoteObjects: 1 Rvt.Attr.Snapping.SnapToTangents: 1 Rvt.Attr.Snapping.SnapToWorkPlaneGrid: 1 Rvt.Attr.Spelling.ArchDict:  Rvt.Attr.Spelling.CustomDict:  Rvt.Attr.Spelling.LanguageCode: -1 Rvt.Attr.Spelling.OptionFlagsSSCE: 18 Rvt.Attr.StatusBar.ShowDesignOptionOnStatusBar: 1 Rvt.Attr.StatusBar.ShowWorksetOnStatusBar: 1 Rvt.Attr.System.LastModeList:  Rvt.Attr.System.LogInventory: 1 Rvt.Attr.System.SuppressModeReport: 0 Rvt.Attr.TagOnPlacement.Areas: 1 Rvt.Attr.TagOnPlacement.CableTray: 0 Rvt.Attr.TagOnPlacement.CommunicationDevices: 0 Rvt.Attr.TagOnPlacement.Conduit: 0 Rvt.Attr.TagOnPlacement.DataDevices: 0 Rvt.Attr.TagOnPlacement.Doors: 0 Rvt.Attr.TagOnPlacement.DuctCurves: 0 Rvt.Attr.TagOnPlacement.DuctTerminal: 0 Rvt.Attr.TagOnPlacement.ElectricalEquipment: 0 Rvt.Attr.TagOnPlacement.ElectricalFixtures: 0 Rvt.Attr.TagOnPlacement.FabricReinforcement: 0 Rvt.Attr.TagOnPlacement.FireAlarmDevices: 0 Rvt.Attr.TagOnPlacement.FlexDuctCurves: 0 Rvt.Attr.TagOnPlacement.FlexPipeCurves: 0 Rvt.Attr.TagOnPlacement.LightingDevices: 0 Rvt.Attr.TagOnPlacement.LightingFixtures: 0 Rvt.Attr.TagOnPlacement.MechanicalControlDevices: 0 Rvt.Attr.TagOnPlacement.MechanicalEquipment: 0 Rvt.Attr.TagOnPlacement.MEPLoadAreas: 1 Rvt.Attr.TagOnPlacement.MEPSpaces: 1 Rvt.Attr.TagOnPlacement.NurseCallDevices: 0 Rvt.Attr.TagOnPlacement.PathOfTravel: 0 Rvt.Attr.TagOnPlacement.PipeCurves: 0 Rvt.Attr.TagOnPlacement.PlaceHolderDucts: 0 Rvt.Attr.TagOnPlacement.PlaceHolderPipes: 0 Rvt.Attr.TagOnPlacement.PlumbingEquipment: 0 Rvt.Attr.TagOnPlacement.PlumbingFixtures: 0 Rvt.Attr.TagOnPlacement.Rooms: 1 Rvt.Attr.TagOnPlacement.SecurityDevices: 0 Rvt.Attr.TagOnPlacement.Sprinklers: 0 Rvt.Attr.TagOnPlacement.StructuralBeam: 0 Rvt.Attr.TagOnPlacement.StructuralBeamSystem: 0 Rvt.Attr.TagOnPlacement.StructuralBrace: 0 Rvt.Attr.TagOnPlacement.StructuralColumn: 0 Rvt.Attr.TagOnPlacement.StructuralTruss: 0 Rvt.Attr.TagOnPlacement.TelephoneDevices: 0 Rvt.Attr.TagOnPlacement.Windows: 0 Rvt.Attr.TagOnPlacement.Wire: 0 Rvt.Attr.TemporaryViewModes.PreviewFamilyVisibilityDefaultOnState: 0 Rvt.Attr.Text Editor.Show Border: 1 Rvt.Attr.Text Editor.Show Opaque Background: 0 Rvt.Attr.Transform.AllowMirrorRotateProject: 0 Rvt.Attr.TypeSelector.RoutingPreferenceConstraintFilterChecked: 0 Rvt.Attr.Upgrades.EnableRoomBoundingGlobalDialog: 0 Rvt.Attr.UserInterface.ActivateContextualTabOnSelection: 1 Rvt.Attr.UserInterface.CategoryDisciplineFilter: 63 Rvt.Attr.UserInterface.DisableMppAutoApply: 0 Rvt.Attr.UserInterface.DisableParamSortInMPPAndEditTypeDialog: 0 Rvt.Attr.UserInterface.DisableResetInstParamsPerType: 0 Rvt.Attr.UserInterface.DisciplineOption: 32253 Rvt.Attr.UserInterface.DisplayRecentFilesPage: 1 Rvt.Attr.UserInterface.DockingMode: Standard Rvt.Attr.UserInterface.DoubleClickAssembly: EnterEditMode Rvt.Attr.UserInterface.DoubleClickComponentStairs: EnterEditMode Rvt.Attr.UserInterface.DoubleClickFamily: EditFamily Rvt.Attr.UserInterface.DoubleClickGroup: EnterEditMode Rvt.Attr.UserInterface.DoubleClickOutsideViewOnSheet: DeactivateView Rvt.Attr.UserInterface.DoubleClickSketchedElement: EnterEditMode Rvt.Attr.UserInterface.DoubleClickViewOnSheet: ActivateView Rvt.Attr.UserInterface.EnableDesignOptions: 1 Rvt.Attr.UserInterface.LockDisciplineOption: 0 Rvt.Attr.UserInterface.PropertiesPaletteParameterSorting: 0 Rvt.Attr.UserInterface.ShowMakeElementEditableControls: 0 Rvt.Attr.UserInterface.SlowDoubleClickInProjectBrowser: 1 Rvt.Attr.UserInterface.SolarStudyAnimationSpeed: 5 Rvt.Attr.UserInterface.StayOnTheModifyTabInFamilyEditor: 1 Rvt.Attr.UserInterface.StayOnTheModifyTabInProjectEnvironment: 0 Rvt.Attr.UserInterface.TypePropertiesParameterSorting: 0 Rvt.Attr.UserInterface.ViewSwitchingOrder: 0 Rvt.Attr.ViewOptions.DefaultViewDiscipline: Coordination Rvt.Attr.Windows.Maximized: 0 
+' 0:< ::810:: Delta VM: Avail +14 -> 134128176 MB, Used 1158 MB; RAM: Avail +204 -> 96335 MB, Used 1404 MB 
+' 0:< GUI Resource Usage GDI: Avail 8409, Used 1591, User: Used 558 
+' 0:< CefSharp has been shutdown successfully! 
+'C 23-Jan-2026 13:20:03.064;   0:< License shutdown starting 
+'C 23-Jan-2026 13:20:03.136;   0:< License cleanup complete: 20 
+' 0:< ::810:: Delta VM: Avail +7 -> 134128183 MB, Used -16 -> 1143 MB; RAM: Avail +9 -> 96344 MB, Used -13 -> 1391 MB 
+' 0:< GUI Resource Usage GDI: Avail 8417, Used 1583, User: Used 557 
+'C 23-Jan-2026 13:20:03.142;  Journal Exit 
+'C 23-Jan-2026 13:20:03.142;   0:< Log Summary 
+' 0:< .ContentDocs 
+' 0:< ...Captured = 3 
+' 0:< ...Checkpointed = 6 
+' 0:< ...Compacted = 6 
+' 0:< ...Copied = 1 
+' 0:< ...Escaped = 3 
+' 0:< ...Expanded = 3 
+' 0:< ...Filtered = 95 
+' 0:< ...Loaded = 700 
+' 0:< ...LoadedLazy = 700 
+' 0:< ...Mutated = 1 
+' 0:< ...Saved = 2100 
+' 0:< .Count 
+' 0:< ...CachingEngaged = 3 
+' 0:< ...ContentDocElementsCompacted = 477 
+' 0:< ...ContentDocGRepsCompacted = 21 
+' 0:< ...DBG_SOMETHING = 16 
+' 0:< ...DSA_FindByCDA = 8 
+' 0:< ...DSA_FindByPath = 5 
+' 0:< ...IdleTimeTaskAdds = 2 
+' 0:< ...MoribundChecks = 17 
+' 0:< ...PayloadsLoaded = 753 
+' 0:< ...PipelineControllerParallel = 821 
+' 0:< ...PipelineReadElementsNoSegmentIndex = 106 
+' 0:< ...PipelineReadNonElements = 120 
+' 0:< ...PipelineReadSegments = 3592 
+' 0:< ...PipelineWriteElementsNoSegmentIndex = 7 
+' 0:< ...PipelineWriteNonElements = 55 
+' 0:< ...PipelineWriteSegments = 1940 
+' 0:< ...SoftFailedMap = 3 
+' 0:< ...ThreadedExpansions = 17646 
+' 0:< ...UnmatchedGViewDirectives = 1 
+' 0:< .GC 
+' 0:< ...Hospiced = 81054 
+' 0:< .HotDocuments 
+' 0:< ...HighWater = 94 
+' 0:< .PendingMessages 
+' 0:< ...Unhandled = 605 
+' 0:< .SampleRate 
+' 0:< ...Nominal = 156 
+' 0:< ...TooHigh = 4 
+' 0:< ...TooLow = 22 
+' 0:< .UIThreads 
+' 0:< ...Created = 5 
+' 0:< ...HighWater = 2 
+' 0:< .UniqueElements 
+' 0:< ...Registered = 2 
+' 0:< .WorkerRequestsHandled 
+' 0:< ...Immediate = 3 
+'C 23-Jan-2026 13:20:03.143;  BC: 0,661,0 
+' 0:< Total session time spent reclaiming memory: 0.000000 seconds.  Averaged 0.000000 seconds/call for 0 calls. 
+' 0:<               BackgroundLoader exec=     1 (parallel=     1)   
+' 0:<        ConsumeMultiSegmentFile exec=  3456 (parallel=  3456)   self=    3.631557 sec (avg=  0.001) 
+' 0:<             ConsumeVisitBucket exec=    69 (parallel=    69)   self=    0.065964 sec (avg=  0.001) 
+' 0:<             CreatePreviewImage exec=     5 (parallel=     0)   self=    0.762886 sec (avg=  0.153) 
+' 0:<                  FormOrAbandon exec=    16 (parallel=     0)   self=   24.805394 sec (avg=  1.550) rollup=  26.018231 (avg=  1.626) 
+' 0:<           GIncrementalDrawTask exec=     1 (parallel=     1)   
+' 0:<            InstrumentationTask exec=     1 (parallel=     1)   
+' 0:<              InvalidateArchive exec=     3 (parallel=     0)   
+' 0:<                 PipeliningTask exec=   753 (parallel=     0)   
+' 0:<                 ProduceArchive exec=  4209 (parallel=     0)   self=    0.212994 sec (avg=  0.000) 
+' 0:<             ProduceVisitBucket exec=   137 (parallel=   137)   self=    0.005513 sec (avg=  0.000) rollup=   0.005504 (avg=  0.000) 
+' 0:<                    QueueMinder exec=     1 (parallel=     1)   
+' 0:<    ReadFileAndPerformOperation exec=   581 (parallel=     0)   
+' 0:<        ReadServerModelDataTask exec=     1 (parallel=     1)   
+' 0:< ReadServerPermissionUpdatesTask exec=    70 (parallel=    68)   
+' 0:<             RunPipelineContext exec=    68 (parallel=    49)   self=    0.002017 sec (avg=  0.000) rollup=   0.072918 (avg=  0.001) 
+' 0:<                  SegmentHasher exec=  4007 (parallel=  4007)   
+' 0:<                 TaskFileExists exec=   712 (parallel=   704)   
+' 0:<               TaskScriptEngine exec=     1 (parallel=     1)   
+' 0:<                   TaskTraverse exec=    80 (parallel=    80)   
+' 0:<                 TaskWaitCursor exec=     1 (parallel=     1)   
+' 0:<         WriteDataWithCacheTask exec=     2 (parallel=     2)   
+' 0:< ::810:: Delta VM: Avail +41 -> 134128225 MB, Used -49 -> 1095 MB; RAM: Avail +46 -> 96390 MB, Used -46 -> 1346 MB 
+' 0:< GUI Resource Usage GDI: Avail 8425, Used 1575, User: Used 519 
+'C 23-Jan-2026 13:20:03.946;   0:< Protein : ProteinSdkManager has been destroyed successfully. 
+'C 23-Jan-2026 13:20:03.946;   0:< Protein : AFbxSdkManager has been destroyed successfully 
+' 0:< ::810:: Delta VM: Avail +28 -> 134128253 MB, Used -4 -> 1091 MB; RAM: Avail +11 -> 96402 MB, Used -12 -> 1334 MB 
+' 0:< GUI Resource Usage GDI: Avail 8425, Used 1575, User: Used 519 
+'C 23-Jan-2026 13:20:03.963;  <-desktop ExitNativeInstance 
+'C 23-Jan-2026 13:20:03.963;  finished recording journal file 
